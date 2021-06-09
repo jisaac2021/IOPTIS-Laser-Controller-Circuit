@@ -85,7 +85,7 @@ F 11 "https://www.arrow.com/en/products/adm7154ardz-3.3-r7/analog-devices" H 100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L _NONAME_ #PWR?
 U 1 1 60C1B1D0
 P 8750 5050
 F 0 "#PWR?" H 8750 4800 50  0001 C CNN
