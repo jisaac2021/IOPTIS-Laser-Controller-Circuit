@@ -30,6 +30,7 @@ X EPAD 9 1600 0 300 L 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #
+<<<<<<< HEAD
 # ADM7172ACPZ-4.2-R7_ADM7172ACPZ-4.2-R7
 #
 DEF ADM7172ACPZ-4.2-R7_ADM7172ACPZ-4.2-R7 IC 0 30 Y Y 1 F N
@@ -57,6 +58,8 @@ X EP 9 700 -800 200 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+=======
+>>>>>>> fd1a0b8d5cbe92d41c8d4ee3065569d35b53368d
 # Device_C
 #
 DEF Device_C C 0 10 N Y 1 F N
@@ -110,6 +113,7 @@ X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+<<<<<<< HEAD
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
@@ -123,4 +127,6 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+=======
+>>>>>>> fd1a0b8d5cbe92d41c8d4ee3065569d35b53368d
 #End Library
