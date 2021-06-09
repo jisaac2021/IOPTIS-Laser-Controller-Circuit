@@ -68,39 +68,280 @@ $EndComp
 $Comp
 L ADM7154ARDZ-3.3-R7:ADM7154ARDZ-3.3-R7 IC?
 U 1 1 60C11888
-P 8450 4750
-F 0 "IC?" H 9150 5015 50  0000 C CNN
-F 1 "ADM7154ARDZ-3.3-R7" H 9150 4924 50  0000 C CNN
-F 2 "SOIC127P600X175-9N" H 9700 4850 50  0001 L CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADM7154.pdf" H 9700 4750 50  0001 L CNN
-F 4 "ANALOG DEVICES - ADM7154ARDZ-3.3-R7 - LDO, FIXED, 3.3V, 0.6A, NSOIC-8" H 9700 4650 50  0001 L CNN "Description"
-F 5 "1.75" H 9700 4550 50  0001 L CNN "Height"
-F 6 "Analog Devices" H 9700 4450 50  0001 L CNN "Manufacturer_Name"
-F 7 "ADM7154ARDZ-3.3-R7" H 9700 4350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "584-ADM7154ARDZ3.3R7" H 9700 4250 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADM7154ARDZ-33-R7?qs=iCT64eccu7it7k4qCC%252BIOw%3D%3D" H 9700 4150 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ADM7154ARDZ-3.3-R7" H 9700 4050 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/adm7154ardz-3.3-r7/analog-devices" H 9700 3950 50  0001 L CNN "Arrow Price/Stock"
-	1    8450 4750
+P 8750 4750
+F 0 "IC?" H 9450 5015 50  0000 C CNN
+F 1 "ADM7154ARDZ-3.3-R7" H 9450 4924 50  0000 C CNN
+F 2 "SOIC127P600X175-9N" H 10000 4850 50  0001 L CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADM7154.pdf" H 10000 4750 50  0001 L CNN
+F 4 "ANALOG DEVICES - ADM7154ARDZ-3.3-R7 - LDO, FIXED, 3.3V, 0.6A, NSOIC-8" H 10000 4650 50  0001 L CNN "Description"
+F 5 "1.75" H 10000 4550 50  0001 L CNN "Height"
+F 6 "Analog Devices" H 10000 4450 50  0001 L CNN "Manufacturer_Name"
+F 7 "ADM7154ARDZ-3.3-R7" H 10000 4350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "584-ADM7154ARDZ3.3R7" H 10000 4250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADM7154ARDZ-33-R7?qs=iCT64eccu7it7k4qCC%252BIOw%3D%3D" H 10000 4150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ADM7154ARDZ-3.3-R7" H 10000 4050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/adm7154ardz-3.3-r7/analog-devices" H 10000 3950 50  0001 L CNN "Arrow Price/Stock"
+	1    8750 4750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L IRF9358PBF:IRF9358PBF IC?
-U 1 1 60C2116D
-P 5400 3550
-F 0 "IC?" H 5900 3815 50  0000 C CNN
-F 1 "IRF9358PBF" H 5900 3724 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 6250 3650 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 6250 3550 50  0001 L CNN
-F 4 "International Rectifier IRF9358PBF Dual P-channel MOSFET Transistor, 9.2 A, -30 V, 8-Pin SOIC" H 6250 3450 50  0001 L CNN "Description"
-F 5 "1.75" H 6250 3350 50  0001 L CNN "Height"
-F 6 "Infineon" H 6250 3250 50  0001 L CNN "Manufacturer_Name"
-F 7 "IRF9358PBF" H 6250 3150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "942-IRF9358PBF" H 6250 3050 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=942-IRF9358PBF" H 6250 2950 50  0001 L CNN "Mouser Price/Stock"
-F 10 "IRF9358PBF" H 6250 2850 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/irf9358pbf/infineon-technologies-ag" H 6250 2750 50  0001 L CNN "Arrow Price/Stock"
-	1    5400 3550
+L _NONAME_ #PWR?
+U 1 1 60C1B1D0
+P 8750 5050
+F 0 "#PWR?" H 8750 4800 50  0001 C CNN
+F 1 "GND" H 8755 4877 50  0000 C CNN
+F 2 "" H 8750 5050 50  0001 C CNN
+F 3 "" H 8750 5050 50  0001 C CNN
+	1    8750 5050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 60C28A84
+P 7050 5000
+F 0 "C?" H 7165 5046 50  0000 L CNN
+F 1 "C" H 7165 4955 50  0000 L CNN
+F 2 "" H 7088 4850 50  0001 C CNN
+F 3 "~" H 7050 5000 50  0001 C CNN
+	1    7050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60C2CB1A
+P 9500 5100
+F 0 "C?" H 9615 5146 50  0000 L CNN
+F 1 "1u" H 9615 5055 50  0000 L CNN
+F 2 "" H 9538 4950 50  0001 C CNN
+F 3 "~" H 9500 5100 50  0001 C CNN
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60C2E0AC
+P 9050 5100
+F 0 "C?" H 9165 5146 50  0000 L CNN
+F 1 "100u" H 9165 5055 50  0000 L CNN
+F 2 "" H 9088 4950 50  0001 C CNN
+F 3 "~" H 9050 5100 50  0001 C CNN
+	1    9050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C305D6
+P 9500 5250
+F 0 "#PWR?" H 9500 5000 50  0001 C CNN
+F 1 "GND" H 9505 5077 50  0000 C CNN
+F 2 "" H 9500 5250 50  0001 C CNN
+F 3 "" H 9500 5250 50  0001 C CNN
+	1    9500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C30DEB
+P 9050 5250
+F 0 "#PWR?" H 9050 5000 50  0001 C CNN
+F 1 "GND" H 9055 5077 50  0000 C CNN
+F 2 "" H 9050 5250 50  0001 C CNN
+F 3 "" H 9050 5250 50  0001 C CNN
+	1    9050 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 9050 4950
+Wire Wire Line
+	9050 4950 8750 4950
+Wire Wire Line
+	7350 4850 7050 4850
+$Comp
+L power:GND #PWR?
+U 1 1 60C319E0
+P 7050 5150
+F 0 "#PWR?" H 7050 4900 50  0001 C CNN
+F 1 "GND" H 7055 4977 50  0000 C CNN
+F 2 "" H 7050 5150 50  0001 C CNN
+F 3 "" H 7050 5150 50  0001 C CNN
+	1    7050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60C31F44
+P 8850 4600
+F 0 "C?" H 8965 4646 50  0000 L CNN
+F 1 "10u" H 8965 4555 50  0000 L CNN
+F 2 "" H 8888 4450 50  0001 C CNN
+F 3 "~" H 8850 4600 50  0001 C CNN
+	1    8850 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4950 9500 4950
+Wire Wire Line
+	8750 4750 8850 4750
+$Comp
+L power:GND #PWR?
+U 1 1 60C366F1
+P 8850 4450
+F 0 "#PWR?" H 8850 4200 50  0001 C CNN
+F 1 "GND" H 8855 4277 50  0000 C CNN
+F 2 "" H 8850 4450 50  0001 C CNN
+F 3 "" H 8850 4450 50  0001 C CNN
+	1    8850 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 4750 7050 4750
+Wire Wire Line
+	7050 4750 7050 4850
+Connection ~ 7050 4750
+Wire Wire Line
+	7050 4750 4900 4750
+Connection ~ 7050 4850
+$Comp
+L Device:C C?
+U 1 1 60C3804B
+P 7300 5350
+F 0 "C?" H 7415 5396 50  0000 L CNN
+F 1 "1u" H 7415 5305 50  0000 L CNN
+F 2 "" H 7338 5200 50  0001 C CNN
+F 3 "~" H 7300 5350 50  0001 C CNN
+	1    7300 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4950 7300 4950
+Wire Wire Line
+	7300 4950 7300 5050
+Wire Wire Line
+	7350 5050 7300 5050
+Connection ~ 7300 5050
+Wire Wire Line
+	7300 5050 7300 5200
+$Comp
+L power:GND #PWR?
+U 1 1 60C392F3
+P 7300 5500
+F 0 "#PWR?" H 7300 5250 50  0001 C CNN
+F 1 "GND" H 7305 5327 50  0000 C CNN
+F 2 "" H 7300 5500 50  0001 C CNN
+F 3 "" H 7300 5500 50  0001 C CNN
+	1    7300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60C39B45
+P 9250 4700
+F 0 "C?" H 9365 4746 50  0000 L CNN
+F 1 "100u" H 9365 4655 50  0000 L CNN
+F 2 "" H 9288 4550 50  0001 C CNN
+F 3 "~" H 9250 4700 50  0001 C CNN
+	1    9250 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4850 9250 4850
+$Comp
+L power:GND #PWR?
+U 1 1 60C3BD4C
+P 9250 4550
+F 0 "#PWR?" H 9250 4300 50  0001 C CNN
+F 1 "GND" H 9255 4377 50  0000 C CNN
+F 2 "" H 9250 4550 50  0001 C CNN
+F 3 "" H 9250 4550 50  0001 C CNN
+	1    9250 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 4950 4900 4950
+Wire Wire Line
+	4900 4950 4900 5000
+Wire Wire Line
+	4900 4850 4900 4950
+Connection ~ 4900 4950
+Wire Wire Line
+	4700 4850 4900 4850
+Wire Wire Line
+	4900 4750 4900 4850
+Connection ~ 4900 4750
+Wire Wire Line
+	4900 4750 4700 4750
+Connection ~ 4900 4850
+Wire Wire Line
+	3300 5050 3000 5050
+Wire Wire Line
+	3000 5050 3000 4850
+Wire Wire Line
+	3000 4850 3300 4850
+$Comp
+L Device:C C11
+U 1 1 60C3DCA3
+P 8400 4050
+F 0 "C11" H 8285 4004 50  0000 R CNN
+F 1 "100u" H 8285 4095 50  0000 R CNN
+F 2 "" H 8438 3900 50  0001 C CNN
+F 3 "~" H 8400 4050 50  0001 C CNN
+	1    8400 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 60C3F9A3
+P 8700 3900
+F 0 "L1" V 8519 3900 50  0000 C CNN
+F 1 "100u" V 8610 3900 50  0000 C CNN
+F 2 "" H 8700 3900 50  0001 C CNN
+F 3 "~" H 8700 3900 50  0001 C CNN
+	1    8700 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60C41D63
+P 9000 4050
+F 0 "C2" H 8885 4004 50  0000 R CNN
+F 1 "100u" H 8885 4095 50  0000 R CNN
+F 2 "" H 9038 3900 50  0001 C CNN
+F 3 "~" H 9000 4050 50  0001 C CNN
+	1    9000 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C42E03
+P 8400 4200
+F 0 "#PWR?" H 8400 3950 50  0001 C CNN
+F 1 "GND" H 8405 4027 50  0000 C CNN
+F 2 "" H 8400 4200 50  0001 C CNN
+F 3 "" H 8400 4200 50  0001 C CNN
+	1    8400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C43694
+P 9000 4200
+F 0 "#PWR?" H 9000 3950 50  0001 C CNN
+F 1 "GND" H 9005 4027 50  0000 C CNN
+F 2 "" H 9000 4200 50  0001 C CNN
+F 3 "" H 9000 4200 50  0001 C CNN
+	1    9000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3900 8850 3900
+Wire Wire Line
+	8550 3900 8400 3900
+Wire Wire Line
+	8400 3900 3000 3900
+Wire Wire Line
+	3000 3900 3000 4850
+Connection ~ 8400 3900
+Connection ~ 3000 4850
+Wire Wire Line
+	9000 3900 10000 3900
+Connection ~ 9000 3900
 $EndSCHEMATC
