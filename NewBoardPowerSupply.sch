@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L laser-rescue:ADM7172ACPZ-4.2-R7-ADM7172ACPZ-4.2-R7 IC1
+L ADM7172ACPZ-4.2-R7:ADM7172ACPZ-4.2-R7 IC1
 U 1 1 60C1104B
 P 4700 4750
 F 0 "IC1" H 5400 5015 50  0000 C CNN
@@ -66,7 +66,7 @@ F 3 "" H 4900 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L laser-rescue:ADM7154ARDZ-3.3-R7-ADM7154ARDZ-3.3-R7 IC?
+L ADM7154ARDZ-3.3-R7:ADM7154ARDZ-3.3-R7 IC?
 U 1 1 60C11888
 P 8750 4750
 F 0 "IC?" H 9450 5015 50  0000 C CNN
@@ -83,17 +83,6 @@ F 10 "ADM7154ARDZ-3.3-R7" H 10000 4050 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/adm7154ardz-3.3-r7/analog-devices" H 10000 3950 50  0001 L CNN "Arrow Price/Stock"
 	1    8750 4750
 	-1   0    0    -1  
-$EndComp
-$Comp
-L _NONAME_ #PWR?
-U 1 1 60C1B1D0
-P 8750 5050
-F 0 "#PWR?" H 8750 4800 50  0001 C CNN
-F 1 "GND" H 8755 4877 50  0000 C CNN
-F 2 "" H 8750 5050 50  0001 C CNN
-F 3 "" H 8750 5050 50  0001 C CNN
-	1    8750 5050
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
@@ -337,11 +326,22 @@ Wire Wire Line
 	8550 3900 8400 3900
 Wire Wire Line
 	8400 3900 3000 3900
-Wire Wire Line
-	3000 3900 3000 4850
 Connection ~ 8400 3900
-Connection ~ 3000 4850
 Wire Wire Line
 	9000 3900 10000 3900
 Connection ~ 9000 3900
+Connection ~ 3000 4850
+Wire Wire Line
+	3000 3900 3000 4850
+$Comp
+L power:GND #PWR?
+U 1 1 60C19547
+P 8750 5050
+F 0 "#PWR?" H 8750 4800 50  0001 C CNN
+F 1 "GND" H 8755 4877 50  0000 C CNN
+F 2 "" H 8750 5050 50  0001 C CNN
+F 3 "" H 8750 5050 50  0001 C CNN
+	1    8750 5050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

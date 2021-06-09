@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name laser-rescue)(type Legacy)(uri ${KIPRJMOD}/laser-rescue.lib)(options "")(descr ""))
   (lib (name ADA4528-2ACPZ-RL)(type Legacy)(uri ${KIPRJMOD}/libraries/ADA4528-2ACPZ-RL.lib)(options "")(descr ""))
   (lib (name ADM7154ARDZ-3.3-R7)(type Legacy)(uri ${KIPRJMOD}/libraries/ADM7154ARDZ-3.3-R7.lib)(options "")(descr ""))
   (lib (name ADM7172ACPZ-4.2-R7)(type Legacy)(uri ${KIPRJMOD}/libraries/ADM7172ACPZ-4.2-R7.lib)(options "")(descr ""))
