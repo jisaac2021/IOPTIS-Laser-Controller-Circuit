@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name 2021-06-09_17-21-09)(type Legacy)(uri ${KIPRJMOD}/libraries/2021-06-09_17-21-09.lib)(options "")(descr ""))
   (lib (name ADM7172ACPZ-4.2-R7)(type Legacy)(uri ${KIPRJMOD}/libraries/ADM7172ACPZ-4.2-R7.lib)(options "")(descr ""))
+  (lib (name ADM7154ARDZ-3.3-R7)(type Legacy)(uri ${KIPRJMOD}/libraries/ADM7154ARDZ-3.3-R7.lib)(options "")(descr ""))
 )

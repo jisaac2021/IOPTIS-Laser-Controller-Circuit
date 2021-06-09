@@ -3,11 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-<<<<<<< HEAD
 Sheet 2 5
-=======
-Sheet 1 5
->>>>>>> fd1a0b8d5cbe92d41c8d4ee3065569d35b53368d
 Title ""
 Date ""
 Rev ""
@@ -68,5 +64,24 @@ F 2 "" H 4900 5300 50  0001 C CNN
 F 3 "" H 4900 5300 50  0001 C CNN
 	1    4900 5300
 	1    0    0    -1  
+$EndComp
+$Comp
+L ADM7154ARDZ-3.3-R7:ADM7154ARDZ-3.3-R7 IC?
+U 1 1 60C11888
+P 8450 4750
+F 0 "IC?" H 9150 5015 50  0000 C CNN
+F 1 "ADM7154ARDZ-3.3-R7" H 9150 4924 50  0000 C CNN
+F 2 "SOIC127P600X175-9N" H 9700 4850 50  0001 L CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADM7154.pdf" H 9700 4750 50  0001 L CNN
+F 4 "ANALOG DEVICES - ADM7154ARDZ-3.3-R7 - LDO, FIXED, 3.3V, 0.6A, NSOIC-8" H 9700 4650 50  0001 L CNN "Description"
+F 5 "1.75" H 9700 4550 50  0001 L CNN "Height"
+F 6 "Analog Devices" H 9700 4450 50  0001 L CNN "Manufacturer_Name"
+F 7 "ADM7154ARDZ-3.3-R7" H 9700 4350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "584-ADM7154ARDZ3.3R7" H 9700 4250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADM7154ARDZ-33-R7?qs=iCT64eccu7it7k4qCC%252BIOw%3D%3D" H 9700 4150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ADM7154ARDZ-3.3-R7" H 9700 4050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/adm7154ardz-3.3-r7/analog-devices" H 9700 3950 50  0001 L CNN "Arrow Price/Stock"
+	1    8450 4750
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
