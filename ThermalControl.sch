@@ -248,4 +248,15 @@ Wire Wire Line
 Wire Wire Line
 	7600 4750 6400 4750
 Connection ~ 7600 4350
+$Comp
+L power:GND #PWR?
+U 1 1 60C22FFC
+P 4800 4850
+F 0 "#PWR?" H 4800 4600 50  0001 C CNN
+F 1 "GND" H 4805 4677 50  0000 C CNN
+F 2 "" H 4800 4850 50  0001 C CNN
+F 3 "" H 4800 4850 50  0001 C CNN
+	1    4800 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
