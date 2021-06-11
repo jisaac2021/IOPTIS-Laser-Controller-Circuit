@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LT1716CS5#TRPBF
+#/1296057/523798/2.49/5/3/Integrated Circuit
+DEF LT1716CS5#TRPBF IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "LT1716CS5#TRPBF" 950 200 50 H V L CNN
+F2 "SOT95P280X100-5N" 950 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT1716.pdf" 950 0 50 H I L CNN
+F4 "Analog Comparators SOT-23, 44V, Over-The-Top, uP, Prec R2R" 950 -100 50 H I L CNN "Description"
+F5 "1" 950 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LT1716CS5#TRPBF" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-LT1716CS5#TRPBF" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1716CS5TRPBF?qs=ytflclh7QUXuAtnEwJBbpw%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "LT1716CS5#TRPBF" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lt1716cs5trpbf/analog-devices" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X V- 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X -IN 4 1100 0 200 L 50 50 0 0 P
+X V+ 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
