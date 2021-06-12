@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ADM7172ACPZ-4.2-R7)(type Legacy)(uri ${KIPRJMOD}/footprint/ADM7172ACPZ-4.2-R7.mod)(options "")(descr ""))
+  (lib (name 4)(type KiCad)(uri C:/Users/lsbil/IOPTIS-Laser-Controller-Circuit/4.2VRegulator)(options "")(descr ""))
+)

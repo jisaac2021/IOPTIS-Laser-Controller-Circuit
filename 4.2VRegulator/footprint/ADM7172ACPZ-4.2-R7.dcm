@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADM7172ACPZ-4.2-R7
+D LDO Voltage Regulators 2A Hi PSRR FT L DO 4.2Vo
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM7172.pdf
+$ENDCMP
+#
+#End Doc Library
