@@ -354,10 +354,10 @@ F 3 "" H 5400 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R7
+L Device:R R5
 U 1 1 60C8514F
 P 5500 1150
-F 0 "R7" H 5570 1196 50  0000 L CNN
+F 0 "R5" H 5570 1196 50  0000 L CNN
 F 1 "10k" H 5570 1105 50  0000 L CNN
 F 2 "" V 5430 1150 50  0001 C CNN
 F 3 "~" H 5500 1150 50  0001 C CNN
@@ -367,10 +367,10 @@ $EndComp
 Wire Wire Line
 	5500 1000 6100 1000
 $Comp
-L Device:R R10
+L Device:R R3
 U 1 1 60C8D17C
 P 6100 1150
-F 0 "R10" H 6170 1196 50  0000 L CNN
+F 0 "R3" H 6170 1196 50  0000 L CNN
 F 1 "14k" H 6170 1105 50  0000 L CNN
 F 2 "" V 6030 1150 50  0001 C CNN
 F 3 "~" H 6100 1150 50  0001 C CNN
@@ -447,7 +447,6 @@ Wire Wire Line
 	7750 1900 7750 1650
 Wire Wire Line
 	7750 1000 6400 1000
-Connection ~ 6100 1000
 Wire Wire Line
 	7750 1000 8150 1000
 Wire Wire Line
@@ -487,9 +486,6 @@ Wire Wire Line
 Wire Wire Line
 	6400 1900 6400 1000
 Connection ~ 6400 1900
-Connection ~ 6400 1000
-Wire Wire Line
-	6400 1000 6100 1000
 $Comp
 L Device:C C7
 U 1 1 60CA63E5
@@ -624,4 +620,15 @@ F 3 "" H 2200 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 5600 2200 5800
+Wire Wire Line
+	6100 1000 6100 700 
+Wire Wire Line
+	6100 700  8500 700 
+Wire Wire Line
+	8500 700  8500 2100
+Wire Wire Line
+	8500 2100 7800 2100
+Wire Wire Line
+	7800 2100 7800 2500
+Connection ~ 6100 1000
 $EndSCHEMATC
