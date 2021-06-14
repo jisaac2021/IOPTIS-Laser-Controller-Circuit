@@ -4,5 +4,6 @@
   (lib (name ADM7172ACPZ-4.2-R7)(type Legacy)(uri ${KIPRJMOD}/libraries/ADM7172ACPZ-4.2-R7.lib)(options "")(descr ""))
   (lib (name IRF9358PBF)(type Legacy)(uri ${KIPRJMOD}/libraries/IRF9358PBF.lib)(options "")(descr ""))
   (lib (name LM4040)(type Legacy)(uri ${KIPRJMOD}/libraries/LM4040.lib)(options "")(descr ""))
-  (lib (name OPA569AIDWPR)(type Legacy)(uri C:/Users/lsbil/IOPTIS-Laser-Controller-Circuit/libraries/OPA569AIDWPR.lib)(options "")(descr ""))
+  (lib (name OPA569AIDWPR)(type Legacy)(uri ${KIPRJMOD}/libraries/OPA569AIDWPR.lib)(options "")(descr ""))
+  (lib (name LT1716CS5#TRPBF)(type Legacy)(uri ${KIPRJMOD}/libraries/LT1716CS5#TRPBF.lib)(options "")(descr ""))
 )
