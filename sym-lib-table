@@ -7,4 +7,5 @@
   (lib (name OPA569AIDWPR)(type Legacy)(uri ${KIPRJMOD}/libraries/OPA569AIDWPR.lib)(options "")(descr ""))
   (lib (name LT1716CS5#TRPBF)(type Legacy)(uri ${KIPRJMOD}/libraries/LT1716CS5#TRPBF.lib)(options "")(descr ""))
   (lib (name RSR030N06TL)(type Legacy)(uri ${KIPRJMOD}/libraries/RSR030N06TL.lib)(options "")(descr ""))
+  (lib (name MAX6126AASA25+)(type Legacy)(uri ${KIPRJMOD}/libraries/MAX6126AASA25+.lib)(options "")(descr ""))
 )
