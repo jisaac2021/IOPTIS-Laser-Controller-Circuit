@@ -579,13 +579,9 @@ Wire Wire Line
 Connection ~ 8150 5500
 Text Label 8900 5500 0    50   ~ 0
 3.3V_rail
-Wire Wire Line
-	4650 5500 4650 5400
 Connection ~ 4650 5400
 Wire Wire Line
 	4650 5400 3800 5400
-Text Label 4650 5500 3    50   ~ 0
-4.2V_goes_to_power_op_amps
 Connection ~ 7600 2500
 Wire Wire Line
 	7600 2500 7800 2500
@@ -631,4 +627,12 @@ Wire Wire Line
 Wire Wire Line
 	7800 2100 7800 2500
 Connection ~ 6100 1000
+Text Notes 4950 5500 3    50   ~ 0
+4.2 Goes to Power OpAmps
+Text HLabel 4750 7000 2    50   Output ~ 0
+4.2V_to_Power_OpAmps
+Wire Wire Line
+	4650 7000 4750 7000
+Wire Wire Line
+	4650 5400 4650 7000
 $EndSCHEMATC
