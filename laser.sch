@@ -37,4 +37,10 @@ U 60C14530
 F0 "ThermalControl" 50
 F1 "ThermalControl.sch" 50
 $EndSheet
+$Sheet
+S 5850 1250 1400 700 
+U 60CE0B79
+F0 "Tiny" 50
+F1 "Tiny.sch" 50
+$EndSheet
 $EndSCHEMATC
