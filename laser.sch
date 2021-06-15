@@ -18,12 +18,14 @@ S 1700 1250 1150 650
 U 60C142BD
 F0 "NewBoardPowerSupply" 50
 F1 "NewBoardPowerSupply.sch" 50
+F2 "4.2V_to_Power_OpAmps" O R 2850 1350 50 
 $EndSheet
 $Sheet
 S 3850 1200 1200 650 
 U 60C143A3
 F0 "PowerOpAmps(TEC Drivers)" 50
 F1 "PowerOpAmps(TEC Drivers).sch" 50
+F2 "4.2V_Power_Supply" I L 3850 1300 50 
 $EndSheet
 $Sheet
 S 1750 2250 1200 650 
@@ -55,4 +57,10 @@ U 60D03868
 F0 "ArduinoNano" 50
 F1 "ArduinoNano.sch" 50
 $EndSheet
+Wire Wire Line
+	2850 1350 3200 1350
+Wire Wire Line
+	3200 1350 3200 1300
+Wire Wire Line
+	3200 1300 3850 1300
 $EndSCHEMATC

@@ -159,8 +159,6 @@ Wire Wire Line
 	7500 2400 8500 2400
 Text Label 7650 1100 0    50   ~ 0
 To_Arduino_AtoD_(neg-current-monitor)
-Text Label 9450 2700 0    50   ~ 0
-To_4.2V_Supply
 Text Label 9050 2400 0    50   ~ 0
 TEC_Minus
 Wire Wire Line
@@ -706,4 +704,8 @@ Wire Wire Line
 Wire Wire Line
 	8750 2200 8750 3750
 Connection ~ 8150 2200
+Text Notes 10200 2900 2    50   ~ 0
+Goes to 4.2 V Power Supply\n
+Text HLabel 9450 2700 2    50   Input ~ 0
+4.2V_Power_Supply
 $EndSCHEMATC
