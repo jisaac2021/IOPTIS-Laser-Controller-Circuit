@@ -418,11 +418,7 @@ Wire Wire Line
 Connection ~ 10850 4600
 Wire Wire Line
 	10850 4400 10850 4600
-Wire Wire Line
-	10850 3650 10850 4400
 Connection ~ 10850 4400
-Wire Wire Line
-	10600 4300 11300 4300
 Wire Wire Line
 	11300 4300 11300 4450
 Wire Wire Line
@@ -509,8 +505,6 @@ Wire Wire Line
 Connection ~ 6450 4650
 Wire Wire Line
 	10850 3650 6650 3650
-Wire Wire Line
-	6650 3650 6650 4450
 Connection ~ 10850 3650
 Connection ~ 6650 4650
 Wire Wire Line
@@ -704,4 +698,10 @@ Text Label 13150 6150 0    50   ~ 0
 SCL
 Text Label 13150 6300 0    50   ~ 0
 SDA
+Wire Wire Line
+	6650 3650 6650 4450
+Wire Wire Line
+	10600 4300 11300 4300
+Wire Wire Line
+	10850 3650 10850 4400
 $EndSCHEMATC

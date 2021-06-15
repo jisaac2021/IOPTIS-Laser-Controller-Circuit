@@ -658,7 +658,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 2200 8750 3750
 Connection ~ 8150 2200
-<<<<<<< HEAD
 Wire Wire Line
 	3200 1800 3400 1800
 Wire Wire Line
@@ -727,10 +726,8 @@ F 3 "~" H 3550 4750 50  0001 C CNN
 	1    3550 4750
 	0    1    -1   0   
 $EndComp
-=======
 Text Notes 10200 2900 2    50   ~ 0
 Goes to 4.2 V Power Supply\n
 Text HLabel 9450 2700 2    50   Input ~ 0
 4.2V_Power_Supply
->>>>>>> 10cc2ccdbf076d866d87c320a11bdc7c7cc616d3
 $EndSCHEMATC

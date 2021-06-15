@@ -12,4 +12,5 @@
   (lib (name MAX5217GUA)(type Legacy)(uri ${KIPRJMOD}/libraries/MAX5217GUA.lib)(options "")(descr ""))
   (lib (name ATMEGA328P-AU)(type Legacy)(uri ${KIPRJMOD}/libraries/ATMEGA328P-AU.lib)(options "")(descr ""))
   (lib (name New_Library_for_first_symbol)(type Legacy)(uri ${KIPRJMOD}/libraries/New_Library_for_first_symbol.lib)(options "")(descr ""))
+  (lib (name USBport)(type Legacy)(uri ${KIPRJMOD}/libraries/USBport.lib)(options "")(descr ""))
 )
