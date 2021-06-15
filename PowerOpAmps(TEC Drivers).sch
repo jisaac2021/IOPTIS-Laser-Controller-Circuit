@@ -564,7 +564,7 @@ L Device:C C15
 U 1 1 60CD3EBB
 P 8650 5950
 F 0 "C15" V 8500 5850 50  0000 L CNN
-F 1 "1u" V 8500 6000 50  0000 L CNN
+F 1 "1u" V 8500 6050 50  0000 L CNN
 F 2 "" H 8688 5800 50  0001 C CNN
 F 3 "~" H 8650 5950 50  0001 C CNN
 	1    8650 5950
@@ -575,7 +575,7 @@ L Device:C C16
 U 1 1 60CD4799
 P 8650 6250
 F 0 "C16" V 8500 6150 50  0000 L CNN
-F 1 "0.1u" V 8500 6300 50  0000 L CNN
+F 1 "0.1u" V 8500 6350 50  0000 L CNN
 F 2 "" H 8688 6100 50  0001 C CNN
 F 3 "~" H 8650 6250 50  0001 C CNN
 	1    8650 6250
@@ -658,7 +658,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 2200 8750 3750
 Connection ~ 8150 2200
-<<<<<<< HEAD
 Wire Wire Line
 	3200 1800 3400 1800
 Wire Wire Line
@@ -727,10 +726,8 @@ F 3 "~" H 3550 4750 50  0001 C CNN
 	1    3550 4750
 	0    1    -1   0   
 $EndComp
-=======
 Text Notes 10200 2900 2    50   ~ 0
 Goes to 4.2 V Power Supply\n
 Text HLabel 9450 2700 2    50   Input ~ 0
 4.2V_Power_Supply
->>>>>>> 10cc2ccdbf076d866d87c320a11bdc7c7cc616d3
 $EndSCHEMATC
