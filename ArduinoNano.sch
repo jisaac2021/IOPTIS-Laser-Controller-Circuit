@@ -445,4 +445,29 @@ F 11 "https://www.arrow.com/en/products/ft232rl-tube/ftdi-chip" H 9000 3250 50  
 	1    7850 4050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7850 4050 7300 4050
+Text Label 7300 4050 2    50   ~ 0
+RX
+Wire Wire Line
+	7300 4150 7850 4150
+$Comp
+L Device:C C4
+U 1 1 60E6FECE
+P 7150 4150
+F 0 "C4" V 7402 4150 50  0000 C CNN
+F 1 "100nF" V 7311 4150 50  0000 C CNN
+F 2 "" H 7188 4000 50  0001 C CNN
+F 3 "~" H 7150 4150 50  0001 C CNN
+	1    7150 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 4150 6800 4150
+Text Label 6800 4150 0    50   ~ 0
+RESET
+Wire Wire Line
+	7850 4450 7300 4450
+Text Label 7300 4450 0    50   ~ 0
+TX
 $EndSCHEMATC
