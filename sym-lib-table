@@ -13,5 +13,9 @@
   (lib (name ATMEGA328P-AU)(type Legacy)(uri ${KIPRJMOD}/libraries/ATMEGA328P-AU.lib)(options "")(descr ""))
   (lib (name New_Library_for_first_symbol)(type Legacy)(uri ${KIPRJMOD}/libraries/New_Library_for_first_symbol.lib)(options "")(descr ""))
   (lib (name UX60-MB-5ST)(type Legacy)(uri ${KIPRJMOD}/libraries/UX60-MB-5ST.lib)(options "")(descr ""))
+<<<<<<< HEAD
   (lib (name laser-rescue)(type Legacy)(uri ${KIPRJMOD}/laser-rescue.lib)(options "")(descr ""))
+=======
+  (lib (name FT232RL-TUBE)(type Legacy)(uri ${KIPRJMOD}/libraries/FT232RL-TUBE.lib)(options "")(descr ""))
+>>>>>>> 1345e77c7a2ade6dda608a69f6b966b9b5c1495c
 )
