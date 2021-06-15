@@ -11,4 +11,5 @@
   (lib (name ADS122C04IPWR)(type Legacy)(uri ${KIPRJMOD}/libraries/ADS122C04IPWR.lib)(options "")(descr ""))
   (lib (name MAX5217GUA)(type Legacy)(uri ${KIPRJMOD}/libraries/MAX5217GUA.lib)(options "")(descr ""))
   (lib (name ATMEGA328P-AU)(type Legacy)(uri ${KIPRJMOD}/libraries/ATMEGA328P-AU.lib)(options "")(descr ""))
+  (lib (name FerriteBeadLib)(type Legacy)(uri ${KIPRJMOD}/New_Library_for_first_symbol.lib)(options "")(descr ""))
 )
