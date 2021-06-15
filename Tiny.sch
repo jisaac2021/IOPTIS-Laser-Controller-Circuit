@@ -13,4 +13,133 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MAX6126AASA25+:MAX6126AASA25+ IC1
+U 1 1 60C8EC90
+P 5800 4000
+F 0 "IC1" H 6350 4265 50  0000 C CNN
+F 1 "MAX6126AASA25+" H 6350 4174 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 6750 4100 50  0001 L CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/MAX6126.pdf" H 6750 4000 50  0001 L CNN
+F 4 "MAX6126AASA25+, Precision Voltage Reference 0.02% 10mA 12.6V max. 8-Pin SO" H 6750 3900 50  0001 L CNN "Description"
+F 5 "1.75" H 6750 3800 50  0001 L CNN "Height"
+F 6 "Maxim Integrated" H 6750 3700 50  0001 L CNN "Manufacturer_Name"
+F 7 "MAX6126AASA25+" H 6750 3600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "700-MAX6126AASA25" H 6750 3500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX6126AASA25%2b?qs=9Cj2FLRihcMpsyOGmX0cNQ%3D%3D" H 6750 3400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 6750 3300 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 6750 3200 50  0001 L CNN "Arrow Price/Stock"
+	1    5800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4100 7050 4100
+Wire Wire Line
+	7050 4100 7050 4200
+Wire Wire Line
+	6900 4200 7050 4200
+Connection ~ 7050 4200
+Wire Wire Line
+	7050 4200 7400 4200
+Text GLabel 7400 4200 2    50   Input ~ 0
+REFERENCE_2.5V
+$Comp
+L Device:C C1
+U 1 1 60C8FD88
+P 7050 4350
+F 0 "C1" H 7165 4396 50  0000 L CNN
+F 1 "0.1u" H 7165 4305 50  0000 L CNN
+F 2 "" H 7088 4200 50  0001 C CNN
+F 3 "~" H 7050 4350 50  0001 C CNN
+	1    7050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C90CD5
+P 7050 4500
+F 0 "#PWR?" H 7050 4250 50  0001 C CNN
+F 1 "GND" H 7055 4327 50  0000 C CNN
+F 2 "" H 7050 4500 50  0001 C CNN
+F 3 "" H 7050 4500 50  0001 C CNN
+	1    7050 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4000 5650 4000
+Wire Wire Line
+	5650 4000 5650 3650
+Wire Wire Line
+	5650 3650 5450 3650
+$Comp
+L Device:C C3
+U 1 1 60C92A79
+P 5450 3800
+F 0 "C3" H 5335 3846 50  0000 R CNN
+F 1 "0.1u" H 5335 3755 50  0000 R CNN
+F 2 "" H 5488 3650 50  0001 C CNN
+F 3 "~" H 5450 3800 50  0001 C CNN
+	1    5450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C940A0
+P 5450 3950
+F 0 "#PWR?" H 5450 3700 50  0001 C CNN
+F 1 "GND" H 5300 3900 50  0000 C CNN
+F 2 "" H 5450 3950 50  0001 C CNN
+F 3 "" H 5450 3950 50  0001 C CNN
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4100 5400 4100
+Wire Wire Line
+	5800 4200 5600 4200
+Wire Wire Line
+	5800 4300 5600 4300
+Wire Wire Line
+	5600 4200 5600 4300
+Connection ~ 5600 4300
+Wire Wire Line
+	5600 4300 5600 4400
+$Comp
+L power:GND #PWR?
+U 1 1 60C94E50
+P 5400 4400
+F 0 "#PWR?" H 5400 4150 50  0001 C CNN
+F 1 "GND" H 5405 4227 50  0000 C CNN
+F 2 "" H 5400 4400 50  0001 C CNN
+F 3 "" H 5400 4400 50  0001 C CNN
+	1    5400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C9528F
+P 5600 4400
+F 0 "#PWR?" H 5600 4150 50  0001 C CNN
+F 1 "GND" H 5605 4227 50  0000 C CNN
+F 2 "" H 5600 4400 50  0001 C CNN
+F 3 "" H 5600 4400 50  0001 C CNN
+	1    5600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60C96AC6
+P 5400 4250
+F 0 "C2" H 5285 4296 50  0000 R CNN
+F 1 "0.1u" H 5285 4205 50  0000 R CNN
+F 2 "" H 5438 4100 50  0001 C CNN
+F 3 "~" H 5400 4250 50  0001 C CNN
+	1    5400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4100 5200 4100
+Connection ~ 5400 4100
+Text Label 5200 4100 2    50   ~ 0
+POWER_3.3V
 $EndSCHEMATC
