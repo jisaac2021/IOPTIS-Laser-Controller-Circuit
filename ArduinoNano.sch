@@ -415,4 +415,34 @@ F 3 "" H 900 4700 50  0001 C CNN
 	1    900  4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L USBport:UX60-MB-5ST J?
+U 1 1 60DA91A6
+P 6750 2600
+F 0 "J?" H 7278 2453 60  0000 L CNN
+F 1 "UX60-MB-5ST" H 7278 2347 60  0000 L CNN
+F 2 "CONN_0-MB-5ST" H 7150 2340 60  0001 C CNN
+F 3 "" H 6750 2600 60  0000 C CNN
+	1    6750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FT232RL-TUBE:FT232RL-TUBE IC?
+U 1 1 60E67F76
+P 7850 4050
+F 0 "IC?" H 8500 4315 50  0000 C CNN
+F 1 "FT232RL-TUBE" H 8500 4224 50  0000 C CNN
+F 2 "SOP65P780X200-28N" H 9000 4150 50  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 9000 4050 50  0001 L CNN
+F 4 "USB Interface IC FT232R Single Ch Full Speed" H 9000 3950 50  0001 L CNN "Description"
+F 5 "2" H 9000 3850 50  0001 L CNN "Height"
+F 6 "FTDI Chip" H 9000 3750 50  0001 L CNN "Manufacturer_Name"
+F 7 "FT232RL-TUBE" H 9000 3650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "895-FT232RL-TUBE" H 9000 3550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/FTDI/FT232RL-TUBE?qs=D1%2FPMqvA100UF95YMvGN8w%3D%3D" H 9000 3450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "FT232RL-TUBE" H 9000 3350 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ft232rl-tube/ftdi-chip" H 9000 3250 50  0001 L CNN "Arrow Price/Stock"
+	1    7850 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
