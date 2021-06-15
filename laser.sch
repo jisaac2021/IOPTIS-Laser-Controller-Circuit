@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -48,5 +48,11 @@ S 5950 2450 1300 600
 U 60CF6290
 F0 "HUUGE" 50
 F1 "HUUGE.sch" 50
+$EndSheet
+$Sheet
+S 8300 1350 1450 700 
+U 60D03868
+F0 "ArduinoNano" 50
+F1 "ArduinoNano.sch" 50
 $EndSheet
 $EndSCHEMATC
