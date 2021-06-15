@@ -62,8 +62,6 @@ Wire Wire Line
 	8050 2200 8050 1450
 Wire Wire Line
 	8050 1450 7650 1450
-Wire Wire Line
-	7650 1450 7650 1500
 $Comp
 L Device:C C2
 U 1 1 60C8E619
@@ -420,8 +418,6 @@ Wire Wire Line
 Connection ~ 4050 4050
 Text Label 4250 4200 0    50   ~ 0
 V5
-Text Label 7650 1500 2    50   ~ 0
-3.3V
 Connection ~ 8050 3050
 Connection ~ 8050 3700
 $Comp
@@ -493,4 +489,6 @@ Wire Wire Line
 Connection ~ 4500 3850
 Text Notes 8800 2750 2    50   ~ 0
 place laser here?\n
+Text Label 7650 1450 2    50   ~ 0
+V2_3.3V
 $EndSCHEMATC
