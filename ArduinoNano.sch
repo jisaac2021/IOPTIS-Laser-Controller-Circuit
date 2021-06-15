@@ -416,7 +416,7 @@ F 3 "" H 900 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L laser-rescue:FT232RL-TUBE-FT232RL-TUBE IC?
+L laser-rescue:FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue IC?
 U 1 1 60E67F76
 P 7850 4050
 AR Path="/60E67F76" Ref="IC?"  Part="1" 
@@ -434,6 +434,25 @@ F 9 "https://www.mouser.co.uk/ProductDetail/FTDI/FT232RL-TUBE?qs=D1%2FPMqvA100UF
 F 10 "FT232RL-TUBE" H 9000 3350 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/ft232rl-tube/ftdi-chip" H 9000 3250 50  0001 L CNN "Arrow Price/Stock"
 	1    7850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L UX60-MB-5ST:UX60-MB-5ST J?
+U 1 1 60DEC73B
+P 9750 5600
+F 0 "J?" H 10200 5865 50  0000 C CNN
+F 1 "UX60-MB-5ST" H 10200 5774 50  0000 C CNN
+F 2 "UX60MB5ST" H 10500 5700 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UX%20Series.pdf" H 10500 5600 50  0001 L CNN
+F 4 "USB Connectors MINI B RECEPT RA SMT W/ POST" H 10500 5500 50  0001 L CNN "Description"
+F 5 "3.95" H 10500 5400 50  0001 L CNN "Height"
+F 6 "Hirose" H 10500 5300 50  0001 L CNN "Manufacturer_Name"
+F 7 "UX60-MB-5ST" H 10500 5200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "798-UX60-MB-5ST" H 10500 5100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UX60-MB-5ST?qs=XQjbzJWzFPVhtlRA%252Bm3eew%3D%3D" H 10500 5000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10500 4900 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10500 4800 50  0001 L CNN "Arrow Price/Stock"
+	1    9750 5600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
