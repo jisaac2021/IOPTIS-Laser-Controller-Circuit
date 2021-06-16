@@ -440,8 +440,8 @@ $Comp
 L UX60-MB-5ST:UX60-MB-5ST J?
 U 1 1 60DEC73B
 P 9750 5600
-F 0 "J?" H 10200 5865 50  0000 C CNN
-F 1 "UX60-MB-5ST" H 10200 5774 50  0000 C CNN
+F 0 "J?" H 10200 4935 50  0000 C CNN
+F 1 "UX60-MB-5ST" H 10200 5026 50  0000 C CNN
 F 2 "UX60MB5ST" H 10500 5700 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UX%20Series.pdf" H 10500 5600 50  0001 L CNN
 F 4 "USB Connectors MINI B RECEPT RA SMT W/ POST" H 10500 5500 50  0001 L CNN "Description"
@@ -453,6 +453,28 @@ F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UX60-MB-5ST?qs=XQjb
 F 10 "" H 10500 4900 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 10500 4800 50  0001 L CNN "Arrow Price/Stock"
 	1    9750 5600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10650 5300 10650 5400
+Connection ~ 10650 5400
+Wire Wire Line
+	10650 5400 10650 5500
+Connection ~ 10650 5500
+Wire Wire Line
+	10650 5500 10650 5600
+Connection ~ 10650 5600
+Wire Wire Line
+	10650 5600 10650 5850
+$Comp
+L power:GND #PWR?
+U 1 1 60DF9008
+P 10650 5850
+F 0 "#PWR?" H 10650 5600 50  0001 C CNN
+F 1 "GND" H 10655 5677 50  0000 C CNN
+F 2 "" H 10650 5850 50  0001 C CNN
+F 3 "" H 10650 5850 50  0001 C CNN
+	1    10650 5850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
