@@ -486,7 +486,7 @@ U 1 1 60D382BE
 P 6300 5850
 F 0 "R407" H 6750 5850 50  0000 C CNN
 F 1 "Y16070R50000F9W" H 6750 6024 50  0000 C CNN
-F 2 "Y16072R00000T9W" H 7050 5950 50  0001 L CNN
+F 2 "footprint libraries:Y16072R00000T9W" H 7050 5950 50  0001 L CNN
 F 3 "http://www.vishaypg.com/docs/63094/vcs1625z.pdf" H 7050 5850 50  0001 L CNN
 F 4 "Vishay Foil Resistors VCS Series Metal Foil Precision Surface Mount Fixed Resistor 500m +/-1% 0.5W +/-0.2ppm/C" H 7050 5750 50  0001 L CNN "Description"
 F 5 "1" H 7050 5650 50  0001 L CNN "Height"
