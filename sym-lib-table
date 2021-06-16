@@ -14,4 +14,5 @@
   (lib (name New_Library_for_first_symbol)(type Legacy)(uri ${KIPRJMOD}/libraries/New_Library_for_first_symbol.lib)(options "")(descr ""))
   (lib (name UX60-MB-5ST)(type Legacy)(uri ${KIPRJMOD}/libraries/UX60-MB-5ST.lib)(options "")(descr ""))
   (lib (name laser-rescue)(type Legacy)(uri ${KIPRJMOD}/laser-rescue.lib)(options "")(descr ""))
+  (lib (name M20-9980345)(type Legacy)(uri ${KIPRJMOD}/libraries/M20-9980345.lib)(options "")(descr ""))
 )

@@ -519,4 +519,69 @@ F 3 "" H 10050 5700 50  0001 C CNN
 	1    10050 5700
 	1    0    0    -1  
 $EndComp
+$Comp
+L M20-9980345:M20-9980345 J?
+U 1 1 60CBCC78
+P 6200 5600
+F 0 "J?" H 6600 5865 50  0000 C CNN
+F 1 "M20-9980345" H 6600 5774 50  0000 C CNN
+F 2 "HDRV6W64P254_2X3_762X508X864P" H 6850 5700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/M20-9980345.pdf" H 6850 5600 50  0001 L CNN
+F 4 "M20 Header, Pin, Dil, Vertical, 3+3 W HARWIN M20 Series, 2.54mm Pitch 6 Way 2 Row Straight Pin Header, Through Hole, Solder Termination" H 6850 5500 50  0001 L CNN "Description"
+F 5 "8.64" H 6850 5400 50  0001 L CNN "Height"
+F 6 "Harwin" H 6850 5300 50  0001 L CNN "Manufacturer_Name"
+F 7 "M20-9980345" H 6850 5200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-M20-9980345" H 6850 5100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9980345?qs=%252Bk6%2F5FB6qrmWKPTw4u3RIA%3D%3D" H 6850 5000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 6850 4900 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 6850 4800 50  0001 L CNN "Arrow Price/Stock"
+	1    6200 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5600 5650 5600
+Text Label 5650 5600 0    50   ~ 0
+D12-MISO
+Wire Wire Line
+	6200 5700 5650 5700
+Text Label 5650 5700 0    50   ~ 0
+D13-SCK
+Text Label 5650 5800 0    50   ~ 0
+RESET
+Wire Wire Line
+	7000 5600 7150 5600
+Wire Wire Line
+	7150 5600 7150 5350
+$Comp
+L power:+5V #PWR?
+U 1 1 60CC7DAF
+P 7150 5350
+F 0 "#PWR?" H 7150 5200 50  0001 C CNN
+F 1 "+5V" H 7165 5523 50  0000 C CNN
+F 2 "" H 7150 5350 50  0001 C CNN
+F 3 "" H 7150 5350 50  0001 C CNN
+	1    7150 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 5800 7150 5800
+Wire Wire Line
+	7150 5800 7150 6000
+$Comp
+L power:GND #PWR?
+U 1 1 60CCB467
+P 7150 6000
+F 0 "#PWR?" H 7150 5750 50  0001 C CNN
+F 1 "GND" H 7155 5827 50  0000 C CNN
+F 2 "" H 7150 6000 50  0001 C CNN
+F 3 "" H 7150 6000 50  0001 C CNN
+	1    7150 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 5700 7550 5700
+Text Label 7550 5700 2    50   ~ 0
+D11-MOSI
+Wire Wire Line
+	6200 5800 5650 5800
 $EndSCHEMATC
