@@ -395,47 +395,6 @@ F 11 "https://www.arrow.com/en/products/ft232rl-tube/ftdi-chip" H 9000 3250 50  
 	1    7850 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L UX60-MB-5ST:UX60-MB-5ST J?
-U 1 1 60DEC73B
-P 9750 5600
-F 0 "J?" H 10200 4935 50  0000 C CNN
-F 1 "UX60-MB-5ST" H 10200 5026 50  0000 C CNN
-F 2 "UX60MB5ST" H 10500 5700 50  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UX%20Series.pdf" H 10500 5600 50  0001 L CNN
-F 4 "USB Connectors MINI B RECEPT RA SMT W/ POST" H 10500 5500 50  0001 L CNN "Description"
-F 5 "3.95" H 10500 5400 50  0001 L CNN "Height"
-F 6 "Hirose" H 10500 5300 50  0001 L CNN "Manufacturer_Name"
-F 7 "UX60-MB-5ST" H 10500 5200 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "798-UX60-MB-5ST" H 10500 5100 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UX60-MB-5ST?qs=XQjbzJWzFPVhtlRA%252Bm3eew%3D%3D" H 10500 5000 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 10500 4900 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 10500 4800 50  0001 L CNN "Arrow Price/Stock"
-	1    9750 5600
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	10650 5300 10650 5400
-Connection ~ 10650 5400
-Wire Wire Line
-	10650 5400 10650 5500
-Connection ~ 10650 5500
-Wire Wire Line
-	10650 5500 10650 5600
-Connection ~ 10650 5600
-Wire Wire Line
-	10650 5600 10650 5850
-$Comp
-L power:GND #PWR?
-U 1 1 60DF9008
-P 10650 5850
-F 0 "#PWR?" H 10650 5600 50  0001 C CNN
-F 1 "GND" H 10655 5677 50  0000 C CNN
-F 2 "" H 10650 5850 50  0001 C CNN
-F 3 "" H 10650 5850 50  0001 C CNN
-	1    10650 5850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7850 4050 7300 4050
 Text Label 7300 4050 0    50   ~ 0
@@ -501,5 +460,63 @@ F 2 "" H 7850 4650 50  0001 C CNN
 F 3 "" H 7850 4650 50  0001 C CNN
 	1    7850 4650
 	0    1    1    0   
+$EndComp
+$Comp
+L New_Library_for_first_symbol:USB_Connector J?
+U 1 1 60CB0840
+P 10400 5350
+F 0 "J?" H 10400 5815 50  0000 C CNN
+F 1 "USB_Connector" H 10400 5724 50  0000 C CNN
+F 2 "" H 10400 5350 50  0001 C CNN
+F 3 "" H 10400 5350 50  0001 C CNN
+	1    10400 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 5250 10850 5250
+Wire Wire Line
+	10850 5250 10850 5350
+Wire Wire Line
+	10750 5550 10850 5550
+Connection ~ 10850 5550
+Wire Wire Line
+	10850 5550 10850 5650
+Wire Wire Line
+	10750 5450 10850 5450
+Connection ~ 10850 5450
+Wire Wire Line
+	10850 5450 10850 5550
+Wire Wire Line
+	10750 5350 10850 5350
+Connection ~ 10850 5350
+Wire Wire Line
+	10850 5350 10850 5450
+$Comp
+L power:GND #PWR?
+U 1 1 60CB8CFF
+P 10850 5650
+F 0 "#PWR?" H 10850 5400 50  0001 C CNN
+F 1 "GND" H 10855 5477 50  0000 C CNN
+F 2 "" H 10850 5650 50  0001 C CNN
+F 3 "" H 10850 5650 50  0001 C CNN
+	1    10850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 5250 10050 5250
+Wire Wire Line
+	9150 5350 10050 5350
+Wire Wire Line
+	10050 5550 10050 5700
+$Comp
+L power:GND #PWR?
+U 1 1 60CC4617
+P 10050 5700
+F 0 "#PWR?" H 10050 5450 50  0001 C CNN
+F 1 "GND" H 10055 5527 50  0000 C CNN
+F 2 "" H 10050 5700 50  0001 C CNN
+F 3 "" H 10050 5700 50  0001 C CNN
+	1    10050 5700
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
