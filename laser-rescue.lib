@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue
+# FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue-laser-rescue
 #
-DEF FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue IC 0 30 Y Y 1 F N
+DEF FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue-laser-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 1150 300 50 H V L CNN
-F1 "FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue" 1150 200 50 H V L CNN
+F1 "FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue-laser-rescue" 1150 200 50 H V L CNN
 F2 "SOP65P780X200-28N" 1150 100 50 H I L CNN
 F3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" 1150 0 50 H I L CNN
 F4 "USB Interface IC FT232R Single Ch Full Speed" 1150 -100 50 H I L CNN "Description"

@@ -256,29 +256,6 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -547,11 +524,11 @@ X MP4 MP4 900 -300 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# laser-rescue_FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue
+# laser-rescue_FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue-laser-rescue
 #
-DEF laser-rescue_FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue IC 0 30 Y Y 1 F N
+DEF laser-rescue_FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue-laser-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 1150 300 50 H V L CNN
-F1 "laser-rescue_FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue" 1150 200 50 H V L CNN
+F1 "laser-rescue_FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue-laser-rescue" 1150 200 50 H V L CNN
 F2 "SOP65P780X200-28N" 1150 100 50 H I L CNN
 F3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" 1150 0 50 H I L CNN
 F4 "USB Interface IC FT232R Single Ch Full Speed" 1150 -100 50 H I L CNN "Description"

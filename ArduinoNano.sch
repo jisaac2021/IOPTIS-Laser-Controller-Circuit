@@ -33,43 +33,6 @@ F 11 "https://www.arrow.com/en/products/atmega328p-au/microchip-technology?regio
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 4300 4450 4400
-$Comp
-L Device:R RRP2A
-U 1 1 60D06FF8
-P 4450 4550
-F 0 "RRP2A" H 4520 4596 50  0000 L CNN
-F 1 "1k" H 4520 4505 50  0000 L CNN
-F 2 "" V 4380 4550 50  0001 C CNN
-F 3 "~" H 4450 4550 50  0001 C CNN
-	1    4450 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED L?
-U 1 1 60D0789B
-P 4450 4850
-F 0 "L?" V 4489 4732 50  0000 R CNN
-F 1 "Yellow" V 4398 4732 50  0000 R CNN
-F 2 "" H 4450 4850 50  0001 C CNN
-F 3 "~" H 4450 4850 50  0001 C CNN
-	1    4450 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4450 5000 4450 5150
-$Comp
-L power:GND #PWR?
-U 1 1 60D0839D
-P 4450 5150
-F 0 "#PWR?" H 4450 4900 50  0001 C CNN
-F 1 "GND" H 4455 4977 50  0000 C CNN
-F 2 "" H 4450 5150 50  0001 C CNN
-F 3 "" H 4450 5150 50  0001 C CNN
-	1    4450 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	3150 2200 2850 2050
 $Comp
 L Device:R RP1B
@@ -165,10 +128,6 @@ Wire Wire Line
 	3750 2200 3750 2000
 Text Label 3750 2000 1    50   ~ 0
 A2
-Wire Wire Line
-	3350 2200 3350 2000
-Text Label 3350 2000 1    50   ~ 0
-RESET
 Wire Wire Line
 	4450 3600 4650 3600
 Text Label 4650 3600 0    50   ~ 0
@@ -416,7 +375,7 @@ F 3 "" H 900 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L laser-rescue:FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue IC?
+L laser-rescue:FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue-laser-rescue IC?
 U 1 1 60E67F76
 P 7850 4050
 AR Path="/60E67F76" Ref="IC?"  Part="1" 
