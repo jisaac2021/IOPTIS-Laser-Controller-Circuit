@@ -436,4 +436,70 @@ F 3 "" H 10650 5850 50  0001 C CNN
 	1    10650 5850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7850 4050 7300 4050
+Text Label 7300 4050 0    50   ~ 0
+RX
+Wire Wire Line
+	7850 4450 7300 4450
+Text Label 7300 4450 0    50   ~ 0
+TX
+Wire Wire Line
+	9150 4250 9650 4250
+Wire Wire Line
+	9650 4250 9650 4350
+$Comp
+L power:GND #PWR?
+U 1 1 60CAD8F7
+P 9650 4450
+F 0 "#PWR?" H 9650 4200 50  0001 C CNN
+F 1 "GND" H 9655 4277 50  0000 C CNN
+F 2 "" H 9650 4450 50  0001 C CNN
+F 3 "" H 9650 4450 50  0001 C CNN
+	1    9650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4350 9300 4350
+Connection ~ 9650 4350
+Wire Wire Line
+	9650 4350 9650 4450
+Wire Wire Line
+	9150 5050 9500 5050
+Connection ~ 9500 4350
+Wire Wire Line
+	9500 4350 9650 4350
+Wire Wire Line
+	9500 5050 9500 4350
+Wire Wire Line
+	9150 4750 9300 4750
+Wire Wire Line
+	9300 4750 9300 4350
+Connection ~ 9300 4350
+Wire Wire Line
+	9300 4350 9500 4350
+Wire Wire Line
+	9150 4850 9300 4850
+$Comp
+L power:+5V #PWR?
+U 1 1 60CB7A04
+P 9300 4850
+F 0 "#PWR?" H 9300 4700 50  0001 C CNN
+F 1 "+5V" V 9200 4850 50  0000 L CNN
+F 2 "" H 9300 4850 50  0001 C CNN
+F 3 "" H 9300 4850 50  0001 C CNN
+	1    9300 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60CB8386
+P 7850 4650
+F 0 "#PWR?" H 7850 4400 50  0001 C CNN
+F 1 "GND" V 7855 4522 50  0000 R CNN
+F 2 "" H 7850 4650 50  0001 C CNN
+F 3 "" H 7850 4650 50  0001 C CNN
+	1    7850 4650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
