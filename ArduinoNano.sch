@@ -416,11 +416,7 @@ F 3 "" H 900 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
 L laser-rescue:FT232RL-TUBE-FT232RL-TUBE-laser-rescue-laser-rescue IC?
-=======
-L FT232RL-TUBE:FT232RL-TUBE IC?
->>>>>>> 1345e77c7a2ade6dda608a69f6b966b9b5c1495c
 U 1 1 60E67F76
 P 7850 4050
 AR Path="/60E67F76" Ref="IC?"  Part="1" 
@@ -440,7 +436,6 @@ F 11 "https://www.arrow.com/en/products/ft232rl-tube/ftdi-chip" H 9000 3250 50  
 	1    7850 4050
 	1    0    0    -1  
 $EndComp
-<<<<<<< HEAD
 $Comp
 L UX60-MB-5ST:UX60-MB-5ST J?
 U 1 1 60DEC73B
@@ -458,46 +453,6 @@ F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UX60-MB-5ST?qs=XQjb
 F 10 "" H 10500 4900 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 10500 4800 50  0001 L CNN "Arrow Price/Stock"
 	1    9750 5600
-=======
-Wire Wire Line
-	7850 4050 7250 4050
-Text Label 7250 4050 0    50   ~ 0
-RX
-Wire Wire Line
-	7850 4150 7250 4150
-$Comp
-L Device:C C4
-U 1 1 60E8990E
-P 7100 4150
-F 0 "C4" V 6848 4150 50  0000 C CNN
-F 1 "100nF" V 6939 4150 50  0000 C CNN
-F 2 "" H 7138 4000 50  0001 C CNN
-F 3 "~" H 7100 4150 50  0001 C CNN
-	1    7100 4150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6950 4150 6650 4150
-Text Label 6650 4150 0    50   ~ 0
-RESET
-Wire Wire Line
-	7850 4450 7250 4450
-Text Label 7250 4450 0    50   ~ 0
-TX
-Wire Wire Line
-	7850 4350 7500 4350
-Wire Wire Line
-	7500 4350 7500 3600
-$Comp
-L power:+5V #PWR?
-U 1 1 60E93646
-P 7500 3600
-F 0 "#PWR?" H 7500 3450 50  0001 C CNN
-F 1 "+5V" H 7515 3773 50  0000 C CNN
-F 2 "" H 7500 3600 50  0001 C CNN
-F 3 "" H 7500 3600 50  0001 C CNN
-	1    7500 3600
->>>>>>> 1345e77c7a2ade6dda608a69f6b966b9b5c1495c
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
