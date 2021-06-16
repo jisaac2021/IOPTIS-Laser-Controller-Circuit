@@ -382,7 +382,7 @@ AR Path="/60E67F76" Ref="IC?"  Part="1"
 AR Path="/60D03868/60E67F76" Ref="IC802"  Part="1" 
 F 0 "IC802" H 8500 4315 50  0000 C CNN
 F 1 "FT232RL-TUBE" H 8500 4224 50  0000 C CNN
-F 2 "SOP65P780X200-28N" H 9000 4150 50  0001 L CNN
+F 2 "footprint libraries:FT232RL-TUBE" H 9000 4150 50  0001 L CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 9000 4050 50  0001 L CNN
 F 4 "USB Interface IC FT232R Single Ch Full Speed" H 9000 3950 50  0001 L CNN "Description"
 F 5 "2" H 9000 3850 50  0001 L CNN "Height"
