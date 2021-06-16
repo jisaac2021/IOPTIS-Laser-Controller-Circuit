@@ -268,34 +268,23 @@ Wire Wire Line
 $Comp
 L Device:C C204
 U 1 1 60C3DCA3
-P 7300 4700
-F 0 "C204" H 7185 4654 50  0000 R CNN
-F 1 "100u" H 7185 4745 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7338 4550 50  0001 C CNN
-F 3 "~" H 7300 4700 50  0001 C CNN
-	1    7300 4700
+P 7100 4700
+F 0 "C204" H 6985 4654 50  0000 R CNN
+F 1 "100u" H 6985 4745 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7138 4550 50  0001 C CNN
+F 3 "~" H 7100 4700 50  0001 C CNN
+	1    7100 4700
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:L L201
-U 1 1 60C3F9A3
-P 7600 4550
-F 0 "L201" V 7419 4550 50  0000 C CNN
-F 1 "100u" V 7510 4550 50  0000 C CNN
-F 2 "" H 7600 4550 50  0001 C CNN
-F 3 "~" H 7600 4550 50  0001 C CNN
-	1    7600 4550
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0209
 U 1 1 60C42E03
-P 7300 4850
-F 0 "#PWR0209" H 7300 4600 50  0001 C CNN
-F 1 "GND" H 7305 4677 50  0000 C CNN
-F 2 "" H 7300 4850 50  0001 C CNN
-F 3 "" H 7300 4850 50  0001 C CNN
-	1    7300 4850
+P 7100 4850
+F 0 "#PWR0209" H 7100 4600 50  0001 C CNN
+F 1 "GND" H 7105 4677 50  0000 C CNN
+F 2 "" H 7100 4850 50  0001 C CNN
+F 3 "" H 7100 4850 50  0001 C CNN
+	1    7100 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -309,14 +298,6 @@ F 3 "" H 7900 4850 50  0001 C CNN
 	1    7900 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 4550 7750 4550
-Wire Wire Line
-	7450 4550 7300 4550
-Wire Wire Line
-	7300 4550 1900 4550
-Connection ~ 7300 4550
-Connection ~ 7900 4550
 Connection ~ 1900 5500
 Wire Wire Line
 	1900 4550 1900 5500
@@ -635,4 +616,27 @@ Wire Wire Line
 	4650 7000 4750 7000
 Wire Wire Line
 	4650 5400 4650 7000
+$Comp
+L 7447714101:7447714101 L201
+U 1 1 60D14724
+P 7100 4550
+F 0 "L201" H 7500 4775 50  0000 C CNN
+F 1 "100u" H 7500 4684 50  0000 C CNN
+F 2 "footprint libraries:7447714220" H 7750 4600 50  0001 L CNN
+F 3 "" H 7750 4500 50  0001 L CNN
+F 4 "Wurth WE-PD Series Shielded Wire-wound SMD Inductor 100 uH +/-20% 1.5A Idc" H 7750 4400 50  0001 L CNN "Description"
+F 5 "5" H 7750 4300 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 7750 4200 50  0001 L CNN "Manufacturer_Name"
+F 7 "7447714101" H 7750 4100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-7447714101" H 7750 4000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7447714101?qs=XJfXErqHgA5R%252B3wMfRjrqw%3D%3D" H 7750 3900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 7750 3800 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 7750 3700 50  0001 L CNN "Arrow Price/Stock"
+	1    7100 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 4550
+Wire Wire Line
+	1900 4550 7100 4550
+Connection ~ 7100 4550
 $EndSCHEMATC

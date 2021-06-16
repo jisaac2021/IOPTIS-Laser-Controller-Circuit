@@ -17,4 +17,5 @@
   (lib (name M20-9980345)(type Legacy)(uri ${KIPRJMOD}/libraries/M20-9980345.lib)(options "")(descr ""))
   (lib (name Y16070R50000F9W)(type Legacy)(uri ${KIPRJMOD}/libraries/Y16070R50000F9W.lib)(options "")(descr ""))
   (lib (name ECS-160-16-33B-CKM-TR)(type Legacy)(uri ${KIPRJMOD}/libraries/ECS-160-16-33B-CKM-TR.lib)(options "")(descr ""))
+  (lib (name 7447714101)(type Legacy)(uri ${KIPRJMOD}/libraries/7447714101.lib)(options "")(descr ""))
 )
