@@ -311,39 +311,19 @@ Wire Wire Line
 Wire Wire Line
 	1550 4500 1550 4950
 Connection ~ 1550 4500
-$Comp
-L Device:Crystal Y801
-U 1 1 60D95420
-P 1250 4250
-F 0 "Y801" V 1204 4381 50  0000 L CNN
-F 1 "Crystal" V 1295 4381 50  0000 L CNN
-F 2 "" H 1250 4250 50  0001 C CNN
-F 3 "~" H 1250 4250 50  0001 C CNN
-	1    1250 4250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1750 4200 1750 4100
-Wire Wire Line
-	1750 4100 1250 4100
-Connection ~ 1250 4100
 Wire Wire Line
 	1750 4300 1750 4400
-Wire Wire Line
-	1750 4400 1250 4400
 $Comp
 L Device:C C801
 U 1 1 60D9EF9C
-P 1050 4100
-F 0 "C801" V 900 4050 50  0000 C CNN
-F 1 "C" V 900 4200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1088 3950 50  0001 C CNN
-F 3 "~" H 1050 4100 50  0001 C CNN
-	1    1050 4100
+P 1050 2850
+F 0 "C801" V 900 2800 50  0000 C CNN
+F 1 "C" V 900 2950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1088 2700 50  0001 C CNN
+F 3 "~" H 1050 2850 50  0001 C CNN
+	1    1050 2850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1250 4100 1200 4100
 $Comp
 L Device:C C802
 U 1 1 60DA0A1E
@@ -355,11 +335,6 @@ F 3 "~" H 1050 4400 50  0001 C CNN
 	1    1050 4400
 	0    1    1    0   
 $EndComp
-Connection ~ 1250 4400
-Wire Wire Line
-	1200 4400 1250 4400
-Wire Wire Line
-	900  4100 900  4400
 Connection ~ 900  4400
 Wire Wire Line
 	900  4400 900  4700
@@ -645,4 +620,59 @@ F 3 "" H 5400 3350 50  0001 C CNN
 	1    5400 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L ECS-160-16-33B-CKM-TR:ECS-160-16-33B-CKM-TR Y801
+U 1 1 60CE517B
+P 1300 3000
+F 0 "Y801" V 1904 3128 50  0000 L CNN
+F 1 "ECS-160-16-33B-CKM-TR" V 1750 3150 50  0000 L CNN
+F 2 "footprint libraries:ECS1601633BCKMTR" H 2450 3100 50  0001 L CNN
+F 3 "" H 2450 3000 50  0001 L CNN
+F 4 "Crystals CRYSTAL 16.000MHZ 16PF SMD,ECS-33B,+/-10ppm,+/-10ppm,60 Ohm,Fundamental,-20 C 70 C,4-SMD, No Lead (DFN, LCC),0.126\" L x 0.098\" W (3.20mm x 2.50mm),0.031\" (0.80mm)" H 2450 2900 50  0001 L CNN "Description"
+F 5 "0.8" H 2450 2800 50  0001 L CNN "Height"
+F 6 "520-160-16-33B-CKMTR" H 2450 2700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ECS/ECS-160-16-33B-CKM-TR/?qs=W%2FMpXkg%252BdQ6JQ%2Fy9oiIGzw%3D%3D" H 2450 2600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ECS" H 2450 2500 50  0001 L CNN "Manufacturer_Name"
+F 9 "ECS-160-16-33B-CKM-TR" H 2450 2400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1300 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 2850 1750 2850
+Wire Wire Line
+	1200 4400 1300 4400
+Wire Wire Line
+	1200 3000 1200 2850
+Connection ~ 1200 2850
+Wire Wire Line
+	1300 4300 1300 4400
+Connection ~ 1300 4400
+Wire Wire Line
+	1300 4400 1750 4400
+Wire Wire Line
+	1200 4300 1000 4300
+Wire Wire Line
+	1000 4300 1000 4100
+Wire Wire Line
+	1000 3000 1300 3000
+Wire Wire Line
+	900  2850 900  4400
+Wire Wire Line
+	1750 2850 1750 4200
+$Comp
+L power:GND #PWR0101
+U 1 1 60D0BCAF
+P 750 4100
+F 0 "#PWR0101" H 750 3850 50  0001 C CNN
+F 1 "GND" H 755 3927 50  0000 C CNN
+F 2 "" H 750 4100 50  0001 C CNN
+F 3 "" H 750 4100 50  0001 C CNN
+	1    750  4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4100 750  4100
+Connection ~ 1000 4100
+Wire Wire Line
+	1000 4100 1000 3000
 $EndSCHEMATC
