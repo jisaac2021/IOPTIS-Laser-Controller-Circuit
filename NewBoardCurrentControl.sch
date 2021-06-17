@@ -89,8 +89,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 2900 7500 3050
 Wire Wire Line
-	8050 2200 8050 3050
-Wire Wire Line
 	9350 2900 9350 3700
 Wire Wire Line
 	9350 2200 9350 2600
@@ -407,7 +405,6 @@ Wire Wire Line
 Connection ~ 4050 4050
 Text Label 4250 4200 0    50   ~ 0
 V5
-Connection ~ 8050 3050
 Connection ~ 8050 3700
 $Comp
 L New_Library_for_first_symbol:782853152_WE-CBA_08 U402
@@ -521,4 +518,25 @@ Wire Wire Line
 Wire Wire Line
 	6300 6150 6300 5950
 Connection ~ 6750 6150
+Wire Wire Line
+	8050 2200 8050 2450
+Wire Wire Line
+	8050 2450 8500 2450
+Wire Wire Line
+	8500 2450 8500 1500
+Wire Wire Line
+	8500 1500 10500 1500
+Wire Wire Line
+	8050 3050 8050 2900
+Wire Wire Line
+	8050 2900 8850 2900
+Wire Wire Line
+	8850 2900 8850 1900
+Wire Wire Line
+	8850 1900 10500 1900
+Connection ~ 8050 3050
+Text Label 10500 1500 2    50   ~ 0
+Laser_3.3VPower_Supply
+Text Label 10500 1900 2    50   ~ 0
+To_Laser
 $EndSCHEMATC
