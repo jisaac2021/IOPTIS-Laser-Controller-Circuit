@@ -300,7 +300,7 @@ F 3 "" H 7900 4850 50  0001 C CNN
 $EndComp
 Connection ~ 1900 5500
 Wire Wire Line
-	1900 4550 1900 5500
+	1900 4550 1900 5400
 $Comp
 L power:GND #PWR0210
 U 1 1 60C19547
@@ -637,4 +637,9 @@ Text GLabel 4750 7000 2    50   Output ~ 0
 4.2V
 Text GLabel 9150 2500 2    50   Input ~ 0
 5V_EXTERNAL_Power_Source
+Wire Wire Line
+	2200 5400 1900 5400
+Connection ~ 1900 5400
+Wire Wire Line
+	1900 5400 1900 5500
 $EndSCHEMATC
