@@ -420,10 +420,6 @@ Wire Wire Line
 Connection ~ 6150 5300
 Wire Wire Line
 	6150 5300 6850 5300
-Text Label 8600 4550 0    50   ~ 0
-Power_OpAmp
-Text Label 6850 2300 0    50   ~ 0
-Power_AC_1u_3.3
 Wire Wire Line
 	3550 2650 4100 2650
 Text Label 3550 2650 0    50   ~ 0
@@ -443,4 +439,8 @@ Wire Wire Line
 	3800 4750 4250 4750
 Text Label 2200 4200 0    50   ~ 0
 Butterfly_Thermistor
+Text GLabel 6850 2300 0    50   Input ~ 0
+3.3V
+Text HLabel 8600 4550 2    50   Output ~ 0
+PowerOpAmp
 $EndSCHEMATC

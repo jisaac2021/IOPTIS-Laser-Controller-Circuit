@@ -468,8 +468,6 @@ Wire Wire Line
 Connection ~ 4500 3850
 Text Notes 8800 2750 2    50   ~ 0
 place laser here?\n
-Text Label 7650 1450 2    50   ~ 0
-V2_3.3V
 $Comp
 L Y16070R50000F9W:Y16070R50000F9W R407
 U 1 1 60D382BE
@@ -528,10 +526,12 @@ Wire Wire Line
 Wire Wire Line
 	8850 1900 10500 1900
 Connection ~ 8050 3050
-Text Label 10500 1500 2    50   ~ 0
-Laser_3.3VPower_Supply
-Text Label 10500 1900 2    50   ~ 0
-To_Laser
 Text HLabel 3600 3850 0    50   Input ~ 0
 MODULATION_SIGNAL
+Text HLabel 10500 1500 2    50   Input ~ 0
+Laser_3.3V
+Text HLabel 10500 1900 2    50   Input ~ 0
+Laser_V-
+Text GLabel 7650 1450 0    50   Input ~ 0
+3.3V
 $EndSCHEMATC

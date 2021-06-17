@@ -20,8 +20,7 @@ F0 "NewBoardPowerSupply" 50
 F1 "NewBoardPowerSupply.sch" 50
 F2 "4.2V_to_Power_OpAmps" O R 2850 1350 50 
 F3 "5V_EXTERNAL_Power_Source" I R 2850 1500 50 
-F4 "3.3V_Supply" O L 1700 1650 50 
-F5 "5V_Power_Supply_For_Circuit" O L 1700 1800 50 
+F4 "5V_Power_Supply_For_Circuit" O L 1700 1800 50 
 $EndSheet
 $Sheet
 S 3850 1200 1200 650 

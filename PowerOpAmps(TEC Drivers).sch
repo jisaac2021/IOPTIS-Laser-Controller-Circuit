@@ -726,8 +726,6 @@ F 3 "~" H 3550 4750 50  0001 C CNN
 	1    3550 4750
 	0    1    -1   0   
 $EndComp
-Text Notes 10200 2900 2    50   ~ 0
-Goes to 4.2 V Power Supply\n
 Text HLabel 9450 2700 2    50   Input ~ 0
 4.2V_Power_Supply
 $EndSCHEMATC

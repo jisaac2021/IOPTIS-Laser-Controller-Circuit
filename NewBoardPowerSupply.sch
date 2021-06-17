@@ -635,8 +635,8 @@ Wire Wire Line
 Connection ~ 7100 4550
 Text HLabel 9150 2500 2    50   Input ~ 0
 5V_EXTERNAL_Power_Source
-Text HLabel 8900 5500 2    50   Output ~ 0
-3.3V_Supply
 Text HLabel 9050 3850 2    50   Output ~ 0
 5V_Power_Supply_For_Circuit
+Text GLabel 8900 5500 2    50   Output ~ 0
+3.3V
 $EndSCHEMATC
