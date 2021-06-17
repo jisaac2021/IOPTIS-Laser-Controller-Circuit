@@ -600,8 +600,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 2100 7800 2500
 Connection ~ 6100 1000
-Text Notes 4950 5500 3    50   ~ 0
-4.2 Goes to Power OpAmps
 Wire Wire Line
 	4650 7000 4750 7000
 Wire Wire Line

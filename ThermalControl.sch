@@ -433,8 +433,6 @@ Text Label 2200 4200 0    50   ~ 0
 Butterfly_Thermistor
 Text GLabel 6850 2300 0    50   Input ~ 0
 3.3V
-Text HLabel 8600 4550 2    50   Output ~ 0
-PowerOpAmp
 Text GLabel 2400 4750 0    50   Input ~ 0
 REFERENCE_2.5V
 Text GLabel 3550 2650 0    50   Input ~ 0
@@ -443,4 +441,6 @@ Text GLabel 4250 6550 2    50   Input ~ 0
 Therm_to_AtoD
 Wire Wire Line
 	4250 4750 4250 6550
+Text GLabel 8600 4550 2    50   Output ~ 0
+Thermal_Control_to_Power_OpAmps
 $EndSCHEMATC

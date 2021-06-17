@@ -107,10 +107,6 @@ F 3 "" H 6750 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 4850 7100 5000
-Text Label 7100 5000 3    50   ~ 0
-AtoD_load
-Wire Wire Line
 	6750 4850 7100 4850
 $Comp
 L power:GND #PWR0402
@@ -212,8 +208,6 @@ F 3 "~" H 4800 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 4600 5100 4600
-Text Label 4600 4600 2    50   ~ 0
-DtoA_converter1V
 Wire Wire Line
 	6250 4600 6100 4600
 $Comp
@@ -522,10 +516,6 @@ Wire Wire Line
 Wire Wire Line
 	8850 1900 10500 1900
 Connection ~ 8050 3050
-Text HLabel 10500 1500 2    50   Input ~ 0
-Laser_3.3V
-Text HLabel 10500 1900 2    50   Input ~ 0
-Laser_V-
 Text GLabel 7650 1450 0    50   Input ~ 0
 3.3V
 Text GLabel 3600 3850 0    50   Input ~ 0
@@ -536,4 +526,16 @@ Wire Wire Line
 	4250 4700 3650 4700
 Wire Wire Line
 	4250 4050 4250 4700
+Text GLabel 3800 5050 0    50   Output ~ 0
+DtoA_Output_to_Current
+Wire Wire Line
+	4600 4600 4600 5050
+Wire Wire Line
+	4600 5050 3800 5050
+Text GLabel 7100 4850 2    50   Output ~ 0
+Current_to_AtoD
+Text GLabel 10500 1500 2    50   Output ~ 0
+LASER_3.3V
+Text GLabel 10500 1900 2    50   Output ~ 0
+LASER_V-
 $EndSCHEMATC
