@@ -218,23 +218,12 @@ Wire Wire Line
 Wire Wire Line
 	2200 6150 2200 4000
 Wire Wire Line
-	1550 4500 1550 3950
+	1550 4500 1550 4150
 Wire Wire Line
 	1550 4500 2350 4500
 Connection ~ 2350 4500
 Wire Wire Line
 	2350 4500 2350 4100
-$Comp
-L power:+5V #PWR0802
-U 1 1 60D5549E
-P 1550 3950
-F 0 "#PWR0802" H 1550 3800 50  0001 C CNN
-F 1 "+5V" H 1565 4123 50  0000 C CNN
-F 2 "" H 1550 3950 50  0001 C CNN
-F 3 "" H 1550 3950 50  0001 C CNN
-	1    1550 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 4950 1900 4950
 Wire Wire Line
@@ -633,4 +622,6 @@ Text HLabel 6800 5300 2    50   Input ~ 0
 5V_Power_Source
 Wire Wire Line
 	6800 5300 6800 5600
+Text HLabel 1550 4150 2    50   Input ~ 0
+5V_Power_Source
 $EndSCHEMATC
