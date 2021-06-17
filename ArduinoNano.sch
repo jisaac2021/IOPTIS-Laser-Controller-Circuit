@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -98,8 +98,6 @@ Text Label 3150 5650 3    50   ~ 0
 D6
 Wire Wire Line
 	3050 5400 3050 5650
-Text Label 3050 5650 3    50   ~ 0
-D5
 Wire Wire Line
 	2450 3700 2200 3700
 Text Label 2200 3700 2    50   ~ 0
@@ -626,4 +624,8 @@ Text GLabel 3850 1100 0    50   Input ~ 0
 5.0V
 Text GLabel 1550 4150 1    50   Input ~ 0
 5.0V
+Text GLabel 3050 5650 0    50   Input ~ 0
+D5
+Text Notes 2100 5850 0    50   ~ 0
+Check later arduino signal d5
 $EndSCHEMATC
