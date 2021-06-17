@@ -576,17 +576,6 @@ F 3 "~" H 3850 1550 50  0001 C CNN
 	1    3850 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0813
-U 1 1 60CE727D
-P 3850 1400
-F 0 "#PWR0813" H 3850 1250 50  0001 C CNN
-F 1 "+5V" H 3865 1573 50  0000 C CNN
-F 2 "" H 3850 1400 50  0001 C CNN
-F 3 "" H 3850 1400 50  0001 C CNN
-	1    3850 1400
-	1    0    0    -1  
-$EndComp
 Text Label 3450 1800 0    50   ~ 0
 RESET
 $Comp
@@ -656,4 +645,6 @@ Text Label 2650 2100 2    50   ~ 0
 D1-TX
 Text Label 2950 2000 2    50   ~ 0
 D0-RX
+Text HLabel 3850 1400 1    50   Input ~ 0
+5V_Power_Source
 $EndSCHEMATC
