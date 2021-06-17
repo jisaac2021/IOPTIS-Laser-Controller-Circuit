@@ -625,7 +625,7 @@ Text GLabel 3850 1100 0    50   Input ~ 0
 Text GLabel 1550 4150 1    50   Input ~ 0
 5.0V
 Text GLabel 3050 5650 0    50   Input ~ 0
-D5
+Arduino_D5_Output
 Text Notes 2100 5850 0    50   ~ 0
 Check later arduino signal d5
 $EndSCHEMATC

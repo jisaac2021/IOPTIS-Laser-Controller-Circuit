@@ -456,8 +456,6 @@ Connection ~ 5200 5450
 Wire Wire Line
 	4500 3850 4400 3850
 Connection ~ 4500 3850
-Text Notes 8800 2750 2    50   ~ 0
-place laser here?\n
 $Comp
 L Y16070R50000F9W:Y16070R50000F9W R407
 U 1 1 60D382BE

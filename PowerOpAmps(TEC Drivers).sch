@@ -150,10 +150,6 @@ Wire Wire Line
 	8250 2600 8250 2800
 Wire Wire Line
 	7500 2400 8500 2400
-Text Label 7650 1100 0    50   ~ 0
-To_Arduino_AtoD_(neg-current-monitor)
-Text Label 9050 2400 0    50   ~ 0
-TEC_Minus
 Wire Wire Line
 	8500 2400 8500 3400
 Wire Wire Line
@@ -422,8 +418,6 @@ F 3 "" H 7500 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8500 2400 9050 2400
-Text Label 9350 4150 0    50   ~ 0
-TEC_Plus
 Wire Wire Line
 	8150 4950 8150 4850
 Connection ~ 8150 4650
@@ -476,8 +470,6 @@ Wire Wire Line
 Connection ~ 7600 4750
 Wire Wire Line
 	7600 4750 7750 4750
-Text Label 9350 4450 0    50   ~ 0
-To_Arduino_AtoD_(pos-current-monitor)
 Wire Wire Line
 	8500 5250 8500 4150
 Wire Wire Line
@@ -503,7 +495,7 @@ F 3 "~" H 2550 2650 50  0001 C CNN
 $EndComp
 Connection ~ 2550 2500
 Wire Wire Line
-	2550 2500 1100 2500
+	2550 2500 1550 2500
 $Comp
 L power:GND #PWR0301
 U 1 1 60CB8F3D
@@ -719,8 +711,8 @@ Text GLabel 9450 2700 2    50   Input ~ 0
 4.2V
 Text GLabel 1750 3600 0    50   Input ~ 0
 REFERENCE_2.5V
-Text GLabel 1100 2500 0    50   Input ~ 0
-D5
+Text GLabel 1550 2500 0    50   Input ~ 0
+Arduino_D5_Output
 Text GLabel 2200 4950 0    50   Input ~ 0
 Thermal_Control_to_Power_OpAmps
 Wire Wire Line
@@ -728,4 +720,12 @@ Wire Wire Line
 Connection ~ 2900 4950
 Wire Wire Line
 	2300 4950 2200 4950
+Text GLabel 9350 4150 2    50   Output ~ 0
+TEC_Plus
+Text GLabel 9050 2400 2    50   Output ~ 0
+TEC_Minus
+Text GLabel 9350 4450 2    50   Output ~ 0
+To_Arduino_AtoD_Pos
+Text GLabel 7650 1100 2    50   Output ~ 0
+To_Arduino_AtoD_Neg
 $EndSCHEMATC
