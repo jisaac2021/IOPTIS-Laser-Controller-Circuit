@@ -19,6 +19,7 @@ U 60C142BD
 F0 "NewBoardPowerSupply" 50
 F1 "NewBoardPowerSupply.sch" 50
 F2 "4.2V_to_Power_OpAmps" O R 2850 1350 50 
+F3 "5V_Power_Source" I R 2850 1550 50 
 $EndSheet
 $Sheet
 S 3850 1200 1200 650 
@@ -63,4 +64,23 @@ Wire Wire Line
 	3200 1350 3200 1300
 Wire Wire Line
 	3200 1300 3850 1300
+$Comp
+L 3PinHeader:281698-3 U101
+U 1 1 60DB4391
+P 8200 2800
+F 0 "U101" H 9100 3187 60  0000 C CNN
+F 1 "281698-3" H 9100 3081 60  0000 C CNN
+F 2 "footprint libraries:281698-3" H 9100 3040 60  0001 C CNN
+F 3 "" H 8200 2800 60  0000 C CNN
+	1    8200 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1550 3350 1550
+Wire Wire Line
+	3350 1550 3350 3500
+Wire Wire Line
+	3350 3500 10000 3500
+Wire Wire Line
+	10000 3500 10000 2900
 $EndSCHEMATC
