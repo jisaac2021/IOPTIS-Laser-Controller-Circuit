@@ -94,8 +94,6 @@ Wire Wire Line
 	9350 2200 9350 2600
 Wire Wire Line
 	6750 4450 6750 4850
-Text Label 8550 4850 0    50   ~ 0
-VOLTAGE
 Connection ~ 6750 4850
 $Comp
 L power:GND #PWR0407
@@ -114,9 +112,6 @@ Text Label 7100 5000 3    50   ~ 0
 AtoD_load
 Wire Wire Line
 	6750 4850 7100 4850
-Connection ~ 7100 4850
-Wire Wire Line
-	7100 4850 8550 4850
 $Comp
 L power:GND #PWR0402
 U 1 1 60C997A8
