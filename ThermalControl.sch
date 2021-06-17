@@ -50,8 +50,8 @@ $Comp
 L Device:R R504
 U 1 1 60C2FA14
 P 5600 3900
-F 0 "R504" V 5700 3700 50  0000 L CNN
-F 1 "10k" V 5700 3950 50  0000 L CNN
+F 0 "R504" V 5700 3750 50  0000 L CNN
+F 1 "10k" V 5700 3900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 3900 50  0001 C CNN
 F 3 "~" H 5600 3900 50  0001 C CNN
 	1    5600 3900
@@ -111,17 +111,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 4750 50  0001 C CNN
 F 3 "~" H 3250 4750 50  0001 C CNN
 	1    3250 4750
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:Thermistor TH501
-U 1 1 60C34A4A
-P 3700 4950
-F 0 "TH501" H 3805 4996 50  0000 L CNN
-F 1 "Thermistor" H 3805 4905 50  0000 L CNN
-F 2 "" H 3700 4950 50  0001 C CNN
-F 3 "~" H 3700 4950 50  0001 C CNN
-	1    3700 4950
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C501
@@ -209,17 +198,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 4750 4450 4750
 $Comp
-L power:GND #PWR0501
-U 1 1 60C40715
-P 3700 5150
-F 0 "#PWR0501" H 3700 4900 50  0001 C CNN
-F 1 "GND" H 3705 4977 50  0000 C CNN
-F 2 "" H 3700 5150 50  0001 C CNN
-F 3 "" H 3700 5150 50  0001 C CNN
-	1    3700 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0503
 U 1 1 60C40C53
 P 4450 5050
@@ -252,9 +230,6 @@ F 3 "~" H 4800 5850 50  0001 C CNN
 	1    4800 5850
 	1    0    0    -1  
 $EndComp
-Connection ~ 3700 4750
-Wire Wire Line
-	3700 4750 3400 4750
 Connection ~ 4450 4750
 Wire Wire Line
 	4450 4750 4250 4750
@@ -263,8 +238,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 4750 4250 6150
 Connection ~ 4250 4750
-Wire Wire Line
-	4250 4750 3700 4750
 Wire Wire Line
 	2850 4750 2850 5700
 Wire Wire Line
@@ -459,4 +432,15 @@ Text Label 4250 6150 0    50   ~ 0
 AtoD_Input
 Text Label 2400 4750 0    50   ~ 0
 Reference_2.5_AC
+Wire Wire Line
+	3400 4750 3800 4750
+Wire Wire Line
+	3800 4750 3800 4200
+Wire Wire Line
+	3800 4200 2200 4200
+Connection ~ 3800 4750
+Wire Wire Line
+	3800 4750 4250 4750
+Text Label 2200 4200 0    50   ~ 0
+Butterfly_Thermistor
 $EndSCHEMATC
