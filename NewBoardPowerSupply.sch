@@ -629,8 +629,6 @@ Connection ~ 7900 4550
 Wire Wire Line
 	1900 4550 7100 4550
 Connection ~ 7100 4550
-Text HLabel 9150 2500 2    50   Input ~ 0
-5V_EXTERNAL_Power_Source
 Text GLabel 8900 5500 2    50   Output ~ 0
 3.3V
 Text GLabel 9350 3850 2    50   Output ~ 0
@@ -639,4 +637,6 @@ Wire Wire Line
 	8950 3850 9350 3850
 Text GLabel 4750 7000 2    50   Output ~ 0
 4.2V
+Text GLabel 9150 2500 2    50   Input ~ 0
+5V_EXTERNAL_Power_Source
 $EndSCHEMATC
