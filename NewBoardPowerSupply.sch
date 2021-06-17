@@ -556,8 +556,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 5500 8900 5500
 Connection ~ 8150 5500
-Text Label 8900 5500 0    50   ~ 0
-3.3V_rail
 Connection ~ 4650 5400
 Wire Wire Line
 	4650 5400 3800 5400
@@ -639,4 +637,6 @@ Wire Wire Line
 Connection ~ 7100 4550
 Text HLabel 9150 2500 2    50   Input ~ 0
 5V_Power_Source
+Text HLabel 8900 5500 2    50   Output ~ 0
+3.3V_Supply
 $EndSCHEMATC
