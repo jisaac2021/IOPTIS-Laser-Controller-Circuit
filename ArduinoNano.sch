@@ -547,8 +547,8 @@ $Comp
 L ECS-160-16-33B-CKM-TR:ECS-160-16-33B-CKM-TR Y801
 U 1 1 60CE517B
 P 1300 3000
-F 0 "Y801" V 1904 3128 50  0000 L CNN
-F 1 "ECS-160-16-33B-CKM-TR" V 1750 3150 50  0000 L CNN
+F 0 "Y801" H 1750 2350 50  0000 L CNN
+F 1 "ECS-160-16-33B-CKM-TR" H 1250 2450 50  0000 L CNN
 F 2 "footprint libraries:ECS1601633BCKMTR" H 2450 3100 50  0001 L CNN
 F 3 "" H 2450 3000 50  0001 L CNN
 F 4 "Crystals CRYSTAL 16.000MHZ 16PF SMD,ECS-33B,+/-10ppm,+/-10ppm,60 Ohm,Fundamental,-20 C 70 C,4-SMD, No Lead (DFN, LCC),0.126\" L x 0.098\" W (3.20mm x 2.50mm),0.031\" (0.80mm)" H 2450 2900 50  0001 L CNN "Description"
@@ -610,18 +610,20 @@ Text Label 2650 2100 2    50   ~ 0
 D1-TX
 Text Label 2950 2000 2    50   ~ 0
 D0-RX
-Text HLabel 3850 1400 1    50   Input ~ 0
-5V_Power_Source
 Wire Wire Line
 	9300 4850 9300 5950
 Wire Wire Line
 	9300 5950 8950 5950
-Text HLabel 8950 5950 0    50   Input ~ 0
-5V_Power_Source
-Text HLabel 6800 5300 2    50   Input ~ 0
-5V_Power_Source
 Wire Wire Line
 	6800 5300 6800 5600
-Text HLabel 1550 4150 2    50   Input ~ 0
-5V_Power_Source
+Text HLabel 1550 4150 1    50   Input ~ 0
+5V_Power_Supply_For_Circuit
+Text HLabel 6800 5300 1    50   Input ~ 0
+5V_Power_Supply_For_Circuit
+Text HLabel 8950 5950 0    50   Input ~ 0
+5V_Power_Supply_For_Circuit
+Text HLabel 3850 1100 2    50   Input ~ 0
+5V_Power_Supply_For_Circuit
+Wire Wire Line
+	3850 1100 3850 1400
 $EndSCHEMATC

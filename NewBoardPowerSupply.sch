@@ -544,8 +544,6 @@ Wire Wire Line
 Wire Wire Line
 	8950 2500 9150 2500
 Connection ~ 8950 2500
-Text Label 9050 3850 0    50   ~ 0
-goes_to_CPU_and_USBchip
 Wire Wire Line
 	8950 2800 8950 3850
 Wire Wire Line
@@ -636,7 +634,9 @@ Wire Wire Line
 	1900 4550 7100 4550
 Connection ~ 7100 4550
 Text HLabel 9150 2500 2    50   Input ~ 0
-5V_Power_Source
+5V_EXTERNAL_Power_Source
 Text HLabel 8900 5500 2    50   Output ~ 0
 3.3V_Supply
+Text HLabel 9050 3850 2    50   Output ~ 0
+5V_Power_Supply_For_Circuit
 $EndSCHEMATC
