@@ -522,18 +522,21 @@ Wire Wire Line
 Wire Wire Line
 	8850 1900 10500 1900
 Connection ~ 8050 3050
-Text HLabel 3600 3850 0    50   Input ~ 0
-MODULATION_SIGNAL
 Text HLabel 10500 1500 2    50   Input ~ 0
 Laser_3.3V
 Text HLabel 10500 1900 2    50   Input ~ 0
 Laser_V-
 Text GLabel 7650 1450 0    50   Input ~ 0
 3.3V
+<<<<<<< HEAD
+Text GLabel 3600 3850 0    50   Input ~ 0
+MODULATION_SIGNAL
+=======
 Text GLabel 3650 4700 0    50   Input ~ 0
 REFERENCE_2.5V
 Wire Wire Line
 	4250 4700 3650 4700
 Wire Wire Line
 	4250 4050 4250 4700
+>>>>>>> a5805e42608951de930306028d47c83e38f1d69e
 $EndSCHEMATC
