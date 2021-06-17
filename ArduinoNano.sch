@@ -415,17 +415,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 4850 9300 4850
 $Comp
-L power:+5V #PWR0809
-U 1 1 60CB7A04
-P 9300 4850
-F 0 "#PWR0809" H 9300 4700 50  0001 C CNN
-F 1 "+5V" V 9200 4850 50  0000 L CNN
-F 2 "" H 9300 4850 50  0001 C CNN
-F 3 "" H 9300 4850 50  0001 C CNN
-	1    9300 4850
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0808
 U 1 1 60CB8386
 P 7850 4650
@@ -497,68 +486,55 @@ $EndComp
 $Comp
 L M20-9980345:M20-9980345 J801
 U 1 1 60CBCC78
-P 6200 5600
-F 0 "J801" H 6600 5865 50  0000 C CNN
-F 1 "M20-9980345" H 6600 5774 50  0000 C CNN
-F 2 "footprint libraries:M20-9980345" H 6850 5700 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/M20-9980345.pdf" H 6850 5600 50  0001 L CNN
-F 4 "M20 Header, Pin, Dil, Vertical, 3+3 W HARWIN M20 Series, 2.54mm Pitch 6 Way 2 Row Straight Pin Header, Through Hole, Solder Termination" H 6850 5500 50  0001 L CNN "Description"
-F 5 "8.64" H 6850 5400 50  0001 L CNN "Height"
-F 6 "Harwin" H 6850 5300 50  0001 L CNN "Manufacturer_Name"
-F 7 "M20-9980345" H 6850 5200 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "855-M20-9980345" H 6850 5100 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9980345?qs=%252Bk6%2F5FB6qrmWKPTw4u3RIA%3D%3D" H 6850 5000 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 6850 4900 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 6850 4800 50  0001 L CNN "Arrow Price/Stock"
-	1    6200 5600
+P 5900 5600
+F 0 "J801" H 6300 5865 50  0000 C CNN
+F 1 "M20-9980345" H 6300 5774 50  0000 C CNN
+F 2 "footprint libraries:M20-9980345" H 6550 5700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/M20-9980345.pdf" H 6550 5600 50  0001 L CNN
+F 4 "M20 Header, Pin, Dil, Vertical, 3+3 W HARWIN M20 Series, 2.54mm Pitch 6 Way 2 Row Straight Pin Header, Through Hole, Solder Termination" H 6550 5500 50  0001 L CNN "Description"
+F 5 "8.64" H 6550 5400 50  0001 L CNN "Height"
+F 6 "Harwin" H 6550 5300 50  0001 L CNN "Manufacturer_Name"
+F 7 "M20-9980345" H 6550 5200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-M20-9980345" H 6550 5100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9980345?qs=%252Bk6%2F5FB6qrmWKPTw4u3RIA%3D%3D" H 6550 5000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 6550 4900 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 6550 4800 50  0001 L CNN "Arrow Price/Stock"
+	1    5900 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 5600 5650 5600
-Text Label 5650 5600 0    50   ~ 0
+	5900 5600 5350 5600
+Text Label 5350 5600 0    50   ~ 0
 D12-MISO
 Wire Wire Line
-	6200 5700 5650 5700
-Text Label 5650 5700 0    50   ~ 0
+	5900 5700 5350 5700
+Text Label 5350 5700 0    50   ~ 0
 D13-SCK
-Text Label 5650 5800 0    50   ~ 0
+Text Label 5350 5800 0    50   ~ 0
 RESET
 Wire Wire Line
-	7000 5600 7150 5600
+	6700 5600 6800 5600
 Wire Wire Line
-	7150 5600 7150 5350
-$Comp
-L power:+5V #PWR0806
-U 1 1 60CC7DAF
-P 7150 5350
-F 0 "#PWR0806" H 7150 5200 50  0001 C CNN
-F 1 "+5V" H 7165 5523 50  0000 C CNN
-F 2 "" H 7150 5350 50  0001 C CNN
-F 3 "" H 7150 5350 50  0001 C CNN
-	1    7150 5350
-	1    0    0    -1  
-$EndComp
+	6700 5800 6850 5800
 Wire Wire Line
-	7000 5800 7150 5800
-Wire Wire Line
-	7150 5800 7150 6000
+	6850 5800 6850 6000
 $Comp
 L power:GND #PWR0807
 U 1 1 60CCB467
-P 7150 6000
-F 0 "#PWR0807" H 7150 5750 50  0001 C CNN
-F 1 "GND" H 7155 5827 50  0000 C CNN
-F 2 "" H 7150 6000 50  0001 C CNN
-F 3 "" H 7150 6000 50  0001 C CNN
-	1    7150 6000
+P 6850 6000
+F 0 "#PWR0807" H 6850 5750 50  0001 C CNN
+F 1 "GND" H 6855 5827 50  0000 C CNN
+F 2 "" H 6850 6000 50  0001 C CNN
+F 3 "" H 6850 6000 50  0001 C CNN
+	1    6850 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 5700 7550 5700
-Text Label 7550 5700 2    50   ~ 0
+	6700 5700 7250 5700
+Text Label 7250 5700 2    50   ~ 0
 D11-MOSI
 Wire Wire Line
-	6200 5800 5650 5800
+	5900 5800 5350 5800
 Wire Wire Line
 	3350 1800 3350 2200
 Wire Wire Line
@@ -647,4 +623,14 @@ Text Label 2950 2000 2    50   ~ 0
 D0-RX
 Text HLabel 3850 1400 1    50   Input ~ 0
 5V_Power_Source
+Wire Wire Line
+	9300 4850 9300 5950
+Wire Wire Line
+	9300 5950 8950 5950
+Text HLabel 8950 5950 0    50   Input ~ 0
+5V_Power_Source
+Text HLabel 6800 5300 2    50   Input ~ 0
+5V_Power_Source
+Wire Wire Line
+	6800 5300 6800 5600
 $EndSCHEMATC
