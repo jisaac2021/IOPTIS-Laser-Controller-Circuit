@@ -552,7 +552,7 @@ Wire Wire Line
 	3800 3650 2800 3650
 Connection ~ 3800 3650
 Text GLabel 2800 3650 0    50   Input ~ 0
-3.3V_SUPPLY
+3.3V
 Wire Wire Line
 	4000 4350 3500 4350
 Text GLabel 2800 4350 0    50   Input ~ 0

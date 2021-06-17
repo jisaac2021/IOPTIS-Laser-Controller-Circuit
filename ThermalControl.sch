@@ -426,8 +426,6 @@ Text Label 3550 2650 0    50   ~ 0
 Setpoint
 Text Label 4250 6150 0    50   ~ 0
 AtoD_Input
-Text Label 2400 4750 0    50   ~ 0
-Reference_2.5_AC
 Wire Wire Line
 	3400 4750 3800 4750
 Wire Wire Line
@@ -443,4 +441,6 @@ Text GLabel 6850 2300 0    50   Input ~ 0
 3.3V
 Text HLabel 8600 4550 2    50   Output ~ 0
 PowerOpAmp
+Text GLabel 2400 4750 0    50   Input ~ 0
+REFERENCE_2.5V
 $EndSCHEMATC

@@ -546,8 +546,6 @@ Wire Wire Line
 Connection ~ 8950 2500
 Wire Wire Line
 	8950 2800 8950 3850
-Wire Wire Line
-	9050 3850 8950 3850
 Connection ~ 8950 3850
 Wire Wire Line
 	8950 3850 8950 4550
@@ -604,8 +602,6 @@ Wire Wire Line
 Connection ~ 6100 1000
 Text Notes 4950 5500 3    50   ~ 0
 4.2 Goes to Power OpAmps
-Text HLabel 4750 7000 2    50   Output ~ 0
-4.2V_to_Power_OpAmps
 Wire Wire Line
 	4650 7000 4750 7000
 Wire Wire Line
@@ -635,8 +631,12 @@ Wire Wire Line
 Connection ~ 7100 4550
 Text HLabel 9150 2500 2    50   Input ~ 0
 5V_EXTERNAL_Power_Source
-Text HLabel 9050 3850 2    50   Output ~ 0
-5V_Power_Supply_For_Circuit
 Text GLabel 8900 5500 2    50   Output ~ 0
 3.3V
+Text GLabel 9350 3850 2    50   Output ~ 0
+5.0V
+Wire Wire Line
+	8950 3850 9350 3850
+Text GLabel 4750 7000 2    50   Output ~ 0
+4.2V
 $EndSCHEMATC

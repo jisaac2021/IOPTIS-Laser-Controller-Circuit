@@ -616,14 +616,14 @@ Wire Wire Line
 	9300 5950 8950 5950
 Wire Wire Line
 	6800 5300 6800 5600
-Text HLabel 1550 4150 1    50   Input ~ 0
-5V_Power_Supply_For_Circuit
-Text HLabel 6800 5300 1    50   Input ~ 0
-5V_Power_Supply_For_Circuit
-Text HLabel 8950 5950 0    50   Input ~ 0
-5V_Power_Supply_For_Circuit
-Text HLabel 3850 1100 2    50   Input ~ 0
-5V_Power_Supply_For_Circuit
 Wire Wire Line
 	3850 1100 3850 1400
+Text GLabel 8950 5950 0    50   Input ~ 0
+5.0V
+Text GLabel 6800 5300 0    50   Input ~ 0
+5.0V
+Text GLabel 3850 1100 0    50   Input ~ 0
+5.0V
+Text GLabel 1550 4150 1    50   Input ~ 0
+5.0V
 $EndSCHEMATC

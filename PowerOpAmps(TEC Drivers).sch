@@ -351,8 +351,6 @@ F 3 "" H 3650 4250 50  0001 C CNN
 	1    3650 4250
 	1    0    0    -1  
 $EndComp
-Text Label 1050 3600 0    50   ~ 0
-Output_of_2.5V_Reference
 Wire Wire Line
 	7500 5350 7600 5350
 Wire Wire Line
@@ -498,7 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 2200 3700 2200
 Wire Wire Line
-	1050 3600 3350 3600
+	1750 3600 3350 3600
 Text Label 1100 2500 0    50   ~ 0
 Enable_Signal_from_Arduino_D5
 $Comp
@@ -726,6 +724,8 @@ F 3 "~" H 3550 4750 50  0001 C CNN
 	1    3550 4750
 	0    1    -1   0   
 $EndComp
-Text HLabel 9450 2700 2    50   Input ~ 0
-4.2V_Power_Supply
+Text GLabel 9450 2700 2    50   Input ~ 0
+4.2V
+Text GLabel 1750 3600 0    50   Input ~ 0
+REFERENCE_2.5V
 $EndSCHEMATC

@@ -41,7 +41,7 @@ Wire Wire Line
 Connection ~ 7050 4200
 Wire Wire Line
 	7050 4200 7400 4200
-Text GLabel 7400 4200 2    50   Input ~ 0
+Text GLabel 7400 4200 2    50   Output ~ 0
 REFERENCE_2.5V
 $Comp
 L Device:C C605
@@ -138,8 +138,6 @@ $EndComp
 Wire Wire Line
 	4850 4100 4650 4100
 Connection ~ 4850 4100
-Text Label 4650 4100 2    50   ~ 0
-POWER_3.3V
 Wire Wire Line
 	5400 4100 5400 4200
 Connection ~ 5400 4100
@@ -179,17 +177,15 @@ Wire Wire Line
 	5400 4500 5550 4500
 Wire Wire Line
 	5750 4300 5750 4600
-$Comp
-L power:GND #PWR0602
-U 1 1 60DBD2AA
-P 5400 4600
-F 0 "#PWR0602" H 5400 4350 50  0001 C CNN
-F 1 "GND" H 5405 4427 50  0000 C CNN
-F 2 "" H 5400 4600 50  0001 C CNN
-F 3 "" H 5400 4600 50  0001 C CNN
-	1    5400 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 4500 5400 4600
+Text GLabel 4650 4100 0    50   Input ~ 0
+3.3V
+Wire Wire Line
+	5400 4600 5700 4600
+Wire Wire Line
+	5700 4600 5700 4200
+Wire Wire Line
+	5700 4200 5750 4200
+Connection ~ 5750 4200
 $EndSCHEMATC

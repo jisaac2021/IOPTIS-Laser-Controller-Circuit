@@ -18,16 +18,13 @@ S 1700 1250 1150 650
 U 60C142BD
 F0 "NewBoardPowerSupply" 50
 F1 "NewBoardPowerSupply.sch" 50
-F2 "4.2V_to_Power_OpAmps" O R 2850 1350 50 
-F3 "5V_EXTERNAL_Power_Source" I R 2850 1500 50 
-F4 "5V_Power_Supply_For_Circuit" O L 1700 1800 50 
+F2 "5V_EXTERNAL_Power_Source" I R 2850 1500 50 
 $EndSheet
 $Sheet
 S 3850 1200 1200 650 
 U 60C143A3
 F0 "PowerOpAmps(TEC Drivers)" 50
 F1 "PowerOpAmps(TEC Drivers).sch" 50
-F2 "4.2V_Power_Supply" I L 3850 1300 50 
 $EndSheet
 $Sheet
 S 1750 2250 1200 650 
@@ -59,14 +56,7 @@ S 8300 1350 1450 700
 U 60D03868
 F0 "ArduinoNano" 50
 F1 "ArduinoNano.sch" 50
-F2 "5V_Power_Supply_For_Circuit" I R 9750 1700 50 
 $EndSheet
-Wire Wire Line
-	2850 1350 3200 1350
-Wire Wire Line
-	3200 1350 3200 1300
-Wire Wire Line
-	3200 1300 3850 1300
 $Comp
 L 3PinHeader:281698-3 U101
 U 1 1 60DB4391
@@ -102,14 +92,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 1500 3350 3500
 Wire Wire Line
-	1700 1800 1300 1800
-Wire Wire Line
-	1300 1800 1300 900 
-Wire Wire Line
-	1300 900  10000 900 
-Wire Wire Line
-	10000 900  10000 1700
-Wire Wire Line
 	9950 2800 10300 2800
 Wire Wire Line
 	10300 2800 10300 3750
@@ -117,6 +99,4 @@ Wire Wire Line
 	3100 3750 10300 3750
 Wire Wire Line
 	10000 3500 10000 2900
-Wire Wire Line
-	9750 1700 10000 1700
 $EndSCHEMATC
