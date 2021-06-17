@@ -200,7 +200,7 @@ $EndComp
 Wire Wire Line
 	12500 5500 12250 5500
 Text GLabel 12250 5500 0    50   Input ~ 0
-ADC_CURRENT
+Current_to_AtoD
 $Comp
 L power:GND #PWR?
 U 1 1 60CAB8DE
@@ -532,7 +532,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4550 6900 5650
 Text GLabel 6900 5650 0    50   Input ~ 0
-DAC_CURRENT
+DtoA_Output_to_Current
 Wire Wire Line
 	13150 4900 13150 5500
 Connection ~ 13150 4900

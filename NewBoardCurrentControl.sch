@@ -393,11 +393,7 @@ F 3 "" H 3850 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4050 4050 4250 4050
-Wire Wire Line
-	4250 4050 4250 4200
 Connection ~ 4050 4050
-Text Label 4250 4200 0    50   ~ 0
-V5
 Connection ~ 8050 3700
 $Comp
 L New_Library_for_first_symbol:782853152_WE-CBA_08 U402
@@ -532,6 +528,15 @@ Text HLabel 10500 1900 2    50   Input ~ 0
 Laser_V-
 Text GLabel 7650 1450 0    50   Input ~ 0
 3.3V
+<<<<<<< HEAD
 Text GLabel 3600 3850 0    50   Input ~ 0
 MODULATION_SIGNAL
+=======
+Text GLabel 3650 4700 0    50   Input ~ 0
+REFERENCE_2.5V
+Wire Wire Line
+	4250 4700 3650 4700
+Wire Wire Line
+	4250 4050 4250 4700
+>>>>>>> a5805e42608951de930306028d47c83e38f1d69e
 $EndSCHEMATC
