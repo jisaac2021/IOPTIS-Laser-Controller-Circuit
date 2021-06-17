@@ -40,6 +40,18 @@ F0 "ThermalControl" 50
 F1 "ThermalControl.sch" 50
 $EndSheet
 $Sheet
+S 5850 1250 1400 700 
+U 60CE0B79
+F0 "Tiny" 50
+F1 "Tiny.sch" 50
+$EndSheet
+$Sheet
+S 5950 2450 1300 600 
+U 60CF6290
+F0 "HUUGE" 50
+F1 "HUUGE.sch" 50
+$EndSheet
+$Sheet
 S 8300 1350 1450 700 
 U 60D03868
 F0 "ArduinoNano" 50
@@ -87,16 +99,4 @@ Wire Wire Line
 	3100 3750 10300 3750
 Wire Wire Line
 	10000 3500 10000 2900
-$Sheet
-S 5850 1250 1400 700 
-U 60CE0B79
-F0 "Reference" 50
-F1 "Reference.sch" 50
-$EndSheet
-$Sheet
-S 5950 2450 1300 600 
-U 60CF6290
-F0 "AtoD_DtoA" 50
-F1 "AtoD_DtoA.sch" 50
-$EndSheet
 $EndSCHEMATC
