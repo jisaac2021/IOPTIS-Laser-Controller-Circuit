@@ -65,22 +65,6 @@ F 3 "" H 8150 2800 50  0001 C CNN
 	1    8150 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2950 2550 3100 2550
-Wire Wire Line
-	3100 2550 3100 3750
-Wire Wire Line
-	2850 1500 3350 1500
-Wire Wire Line
-	3350 1500 3350 3500
-Wire Wire Line
-	9950 2800 10300 2800
-Wire Wire Line
-	10300 2800 10300 3750
-Wire Wire Line
-	3100 3750 10300 3750
-Wire Wire Line
-	10000 3500 10000 2900
 $Sheet
 S 5850 1250 1400 700 
 U 60CE0B79
