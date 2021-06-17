@@ -57,6 +57,7 @@ S 8300 1350 1450 700
 U 60D03868
 F0 "ArduinoNano" 50
 F1 "ArduinoNano.sch" 50
+F2 "5V_Power_Source" I R 9750 1650 50 
 $EndSheet
 Wire Wire Line
 	2850 1350 3200 1350
@@ -80,7 +81,14 @@ Wire Wire Line
 Wire Wire Line
 	3350 1550 3350 3500
 Wire Wire Line
-	3350 3500 10000 3500
+	10150 3500 10150 2900
 Wire Wire Line
-	10000 3500 10000 2900
+	10150 2900 10000 2900
+Wire Wire Line
+	3350 3500 10150 3500
+Wire Wire Line
+	10150 2900 10150 1650
+Wire Wire Line
+	10150 1650 9750 1650
+Connection ~ 10150 2900
 $EndSCHEMATC
