@@ -235,8 +235,6 @@ Wire Wire Line
 	4450 4750 4250 4750
 Wire Wire Line
 	3100 4750 2850 4750
-Wire Wire Line
-	4250 4750 4250 6150
 Connection ~ 4250 4750
 Wire Wire Line
 	2850 4750 2850 5700
@@ -422,10 +420,6 @@ Wire Wire Line
 	6150 5300 6850 5300
 Wire Wire Line
 	3550 2650 4100 2650
-Text Label 3550 2650 0    50   ~ 0
-Setpoint
-Text Label 4250 6150 0    50   ~ 0
-AtoD_Input
 Wire Wire Line
 	3400 4750 3800 4750
 Wire Wire Line
@@ -443,4 +437,10 @@ Text HLabel 8600 4550 2    50   Output ~ 0
 PowerOpAmp
 Text GLabel 2400 4750 0    50   Input ~ 0
 REFERENCE_2.5V
+Text GLabel 3550 2650 0    50   Input ~ 0
+DtoA_Output_(Setpoint)
+Text GLabel 4250 6550 2    50   Input ~ 0
+Therm_to_AtoD
+Wire Wire Line
+	4250 4750 4250 6550
 $EndSCHEMATC

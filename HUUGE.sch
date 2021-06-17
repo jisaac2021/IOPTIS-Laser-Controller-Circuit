@@ -294,7 +294,7 @@ $EndComp
 Wire Wire Line
 	10900 5500 10600 5500
 Text GLabel 10600 5500 0    50   Input ~ 0
-ADC_TEMP
+Therm_to_AtoD
 Wire Wire Line
 	10850 3650 11600 3650
 Connection ~ 11600 3650
@@ -358,7 +358,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 4500 11150 4500
 Text GLabel 10050 5150 0    50   Input ~ 0
-DAC_TEMP
+DtoA_Output_(Setpoint)
 Wire Wire Line
 	10600 4400 10850 4400
 $Comp
