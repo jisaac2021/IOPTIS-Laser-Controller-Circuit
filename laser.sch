@@ -33,6 +33,7 @@ S 1750 2250 1200 650
 U 60C1444E
 F0 "NewBoardCurrentControl" 50
 F1 "NewBoardCurrentControl.sch" 50
+F2 "MODULATION_SIGNAL" I R 2950 2550 50 
 $EndSheet
 $Sheet
 S 3750 2350 1200 700 
@@ -102,4 +103,12 @@ F 3 "" H 8200 2800 50  0001 C CNN
 	1    8200 2800
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2950 2550 3000 2550
+Wire Wire Line
+	3000 2550 3000 2150
+Wire Wire Line
+	3000 2150 10000 2150
+Wire Wire Line
+	10000 2150 10000 2800
 $EndSCHEMATC

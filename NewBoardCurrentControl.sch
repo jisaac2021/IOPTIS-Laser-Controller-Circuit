@@ -269,8 +269,6 @@ F 3 "~" H 3750 3650 50  0001 C CNN
 	1    3750 3650
 	0    1    1    0   
 $EndComp
-Text Label 3600 3850 2    50   ~ 0
-MODULATION_SIGNAL
 Wire Wire Line
 	3600 3650 3600 3850
 $Comp
@@ -534,4 +532,6 @@ Text Label 10500 1500 2    50   ~ 0
 Laser_3.3VPower_Supply
 Text Label 10500 1900 2    50   ~ 0
 To_Laser
+Text HLabel 3600 3850 0    50   Input ~ 0
+MODULATION_SIGNAL
 $EndSCHEMATC
