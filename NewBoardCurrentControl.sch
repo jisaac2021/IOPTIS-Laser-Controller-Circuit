@@ -275,7 +275,7 @@ F 3 "~" H 3750 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3600 3850 2    50   ~ 0
-SINE(0_0_10k)V3
+MODULATION_SIGNAL
 Wire Wire Line
 	3600 3650 3600 3850
 $Comp
