@@ -43,4 +43,6 @@ Wire Wire Line
 	5650 3200 5650 2600
 Wire Wire Line
 	5650 2600 5600 2600
+Text GLabel 5750 3200 1    50   Input ~ 0
+Monitor+_To_AIN2
 $EndSCHEMATC
