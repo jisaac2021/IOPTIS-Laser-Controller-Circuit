@@ -118,8 +118,6 @@ Wire Wire Line
 	3550 2200 3550 2000
 Text Label 3550 2000 1    50   ~ 0
 A4
-Wire Wire Line
-	3650 2200 3650 2000
 Text Label 3650 2000 1    50   ~ 0
 A3
 Wire Wire Line
@@ -628,4 +626,14 @@ Text GLabel 3050 5650 0    50   Input ~ 0
 Arduino_D5_Output
 Text Notes 2100 5850 0    50   ~ 0
 Check later arduino signal d5
+Wire Wire Line
+	3750 2000 4700 2000
+Wire Wire Line
+	3650 1900 4700 1900
+Wire Wire Line
+	3650 1900 3650 2200
+Text GLabel 4700 1900 2    50   Input ~ 0
+To_Arduino_AtoD_Neg
+Text GLabel 4700 2000 2    50   Input ~ 0
+To_Arduino_AtoD_Pos
 $EndSCHEMATC
