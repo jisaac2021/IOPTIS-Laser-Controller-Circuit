@@ -81,4 +81,10 @@ Text GLabel 9950 2800 2    50   Input ~ 0
 MODULATION_SIGNAL
 Text GLabel 9950 2900 2    50   Input ~ 0
 5V_EXTERNAL_Power_Source
+$Sheet
+S 1800 3550 1150 650 
+U 60CD4C95
+F0 "Butterfly" 50
+F1 "Butterfly.sch" 50
+$EndSheet
 $EndSCHEMATC
