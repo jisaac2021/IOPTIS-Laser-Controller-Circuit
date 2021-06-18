@@ -45,4 +45,33 @@ Wire Wire Line
 	5650 2600 5600 2600
 Text GLabel 5750 3200 1    50   Input ~ 0
 Monitor+_To_AIN2
+Text GLabel 5750 4500 3    50   Input ~ 0
+LASER_3.3V
+Text GLabel 5850 3200 1    50   Input ~ 0
+LASER_V-
+Text GLabel 6050 3200 1    50   Input ~ 0
+Butterfly_Thermistor
+Wire Wire Line
+	5950 3200 5950 2400
+Wire Wire Line
+	5950 2400 5600 2400
+Wire Wire Line
+	5600 2400 5600 2600
+Connection ~ 5600 2600
+Wire Wire Line
+	5550 4500 5450 4500
+Connection ~ 5450 4500
+Wire Wire Line
+	5450 4500 5400 4500
+$Comp
+L power:GND #PWR?
+U 1 1 60E00331
+P 5400 4500
+F 0 "#PWR?" H 5400 4250 50  0001 C CNN
+F 1 "GND" V 5405 4372 50  0000 R CNN
+F 2 "" H 5400 4500 50  0001 C CNN
+F 3 "" H 5400 4500 50  0001 C CNN
+	1    5400 4500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
