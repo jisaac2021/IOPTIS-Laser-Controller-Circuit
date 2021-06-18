@@ -531,7 +531,7 @@ Wire Wire Line
 	6400 4550 6900 4550
 Wire Wire Line
 	6900 4550 6900 5650
-Text GLabel 6900 5650 0    50   Input ~ 0
+Text GLabel 6900 5650 0    50   Output ~ 0
 DtoA_Output_to_Current
 Wire Wire Line
 	13150 4900 13150 5500

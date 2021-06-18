@@ -110,12 +110,8 @@ Wire Wire Line
 	3050 2200 2800 2200
 Text Label 2800 2200 2    50   ~ 0
 D2
-Wire Wire Line
-	3450 2200 3450 2000
 Text Label 3450 2000 1    50   ~ 0
 A5
-Wire Wire Line
-	3550 2200 3550 2000
 Text Label 3550 2000 1    50   ~ 0
 A4
 Text Label 3650 2000 1    50   ~ 0
@@ -523,21 +519,21 @@ Wire Wire Line
 Wire Wire Line
 	3350 1800 3350 2200
 Wire Wire Line
-	3350 1800 3850 1800
+	3350 1800 3250 1800
 Wire Wire Line
-	3850 1800 3850 1700
+	3250 1800 3250 1400
 $Comp
 L Device:R RP1D601
 U 1 1 60CE678B
-P 3850 1550
-F 0 "RP1D601" H 3920 1596 50  0000 L CNN
-F 1 "1k" H 3920 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3780 1550 50  0001 C CNN
-F 3 "~" H 3850 1550 50  0001 C CNN
-	1    3850 1550
+P 3250 1250
+F 0 "RP1D601" H 3320 1296 50  0000 L CNN
+F 1 "1k" H 3320 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3180 1250 50  0001 C CNN
+F 3 "~" H 3250 1250 50  0001 C CNN
+	1    3250 1250
 	1    0    0    -1  
 $EndComp
-Text Label 3450 1800 0    50   ~ 0
+Text Label 3250 1550 0    50   ~ 0
 RESET
 $Comp
 L ECS-160-16-33B-CKM-TR:ECS-160-16-33B-CKM-TR Y601
@@ -613,12 +609,12 @@ Wire Wire Line
 Wire Wire Line
 	6800 5300 6800 5600
 Wire Wire Line
-	3850 1100 3850 1400
+	3250 800  3250 1100
 Text GLabel 8950 5950 0    50   Input ~ 0
 5.0V
 Text GLabel 6800 5300 0    50   Input ~ 0
 5.0V
-Text GLabel 3850 1100 0    50   Input ~ 0
+Text GLabel 3250 800  0    50   Input ~ 0
 5.0V
 Text GLabel 1550 4150 1    50   Input ~ 0
 5.0V
@@ -636,4 +632,16 @@ Text GLabel 4700 1900 2    50   Input ~ 0
 To_Arduino_AtoD_Neg
 Text GLabel 4700 2000 2    50   Input ~ 0
 To_Arduino_AtoD_Pos
+Text GLabel 6050 1750 2    50   Output ~ 0
+SDA
+Text GLabel 6050 1600 2    50   Output ~ 0
+SCL
+Wire Wire Line
+	3450 1600 6050 1600
+Wire Wire Line
+	3450 1600 3450 2200
+Wire Wire Line
+	6050 1750 3550 1750
+Wire Wire Line
+	3550 1750 3550 2200
 $EndSCHEMATC

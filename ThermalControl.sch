@@ -429,8 +429,6 @@ Wire Wire Line
 Connection ~ 3800 4750
 Wire Wire Line
 	3800 4750 4250 4750
-Text Label 2200 4200 0    50   ~ 0
-Butterfly_Thermistor
 Text GLabel 6850 2300 0    50   Input ~ 0
 3.3V
 Text GLabel 2400 4750 0    50   Input ~ 0
@@ -443,4 +441,6 @@ Wire Wire Line
 	4250 4750 4250 6550
 Text GLabel 8600 4550 2    50   Output ~ 0
 Thermal_Control_to_Power_OpAmps
+Text GLabel 2200 4200 0    50   Output ~ 0
+Butterfly_Thermistor
 $EndSCHEMATC
