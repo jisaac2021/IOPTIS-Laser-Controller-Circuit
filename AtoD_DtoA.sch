@@ -154,12 +154,7 @@ Wire Wire Line
 	11850 4900 11450 4900
 Connection ~ 11450 4900
 Wire Wire Line
-	11450 4900 11450 4800
-Wire Wire Line
 	11850 4800 11700 4800
-Connection ~ 11450 4800
-Wire Wire Line
-	11450 4800 11450 4600
 Wire Wire Line
 	11850 4600 11700 4600
 Connection ~ 11450 4600
@@ -708,9 +703,8 @@ Wire Wire Line
 	11700 4800 11700 5250
 Wire Wire Line
 	11700 5250 11800 5250
-Connection ~ 11700 4800
-Wire Wire Line
-	11700 4800 11450 4800
 Text GLabel 11800 5250 2    50   Input ~ 0
 Monitor+_To_AIN2
+Wire Wire Line
+	11450 4600 11450 4900
 $EndSCHEMATC
