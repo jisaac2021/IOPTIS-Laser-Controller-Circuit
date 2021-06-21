@@ -1402,7 +1402,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 60CF3273)
-    (at 171.18 120.52)
+    (at 171.28 120.6)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60C1444E/60D13632)
@@ -1474,7 +1474,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF3295)
-    (at 168.105001 147.165001)
+    (at 173.59 123.91 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60C1444E/60C9EA80)
@@ -1498,9 +1498,9 @@
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.25 0.25) (thickness 0.04)))
     )
-    (pad 2 smd roundrect (at 0.48 0) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.48 0 180) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 GND))
-    (pad 1 smd roundrect (at -0.48 0) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.48 0 180) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 "Net-(C405-Pad1)"))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
       (at (xyz 0 0 0))
@@ -1510,7 +1510,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF32A6)
-    (at 171.725001 138.655001)
+    (at 173.81 127.32 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60C1444E/60C9CF21)
@@ -1534,9 +1534,9 @@
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.25 0.25) (thickness 0.04)))
     )
-    (pad 1 smd roundrect (at -0.48 0) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.48 0 180) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 "Net-(C406-Pad1)"))
-    (pad 2 smd roundrect (at 0.48 0) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.48 0 180) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 GND))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
       (at (xyz 0 0 0))
@@ -1546,7 +1546,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF32B7)
-    (at 165.235001 147.755001)
+    (at 167.86 117.73 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60C1444E/60CB00E4)
@@ -1570,9 +1570,9 @@
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.25 0.25) (thickness 0.04)))
     )
-    (pad 2 smd roundrect (at 0.48 0) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.48 0 180) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 27 "Net-(C407-Pad2)"))
-    (pad 1 smd roundrect (at -0.48 0) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.48 0 180) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 GND))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
       (at (xyz 0 0 0))
@@ -1582,7 +1582,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF32C8)
-    (at 171.725001 140.625001)
+    (at 171.15 123.88 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60C1444E/60CA1AED)
@@ -1606,9 +1606,9 @@
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.25 0.25) (thickness 0.04)))
     )
-    (pad 1 smd roundrect (at -0.48 0) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.48 0 180) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 28 "Net-(C408-Pad1)"))
-    (pad 2 smd roundrect (at 0.48 0) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.48 0 180) (size 0.56 0.62) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 126 GND))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
       (at (xyz 0 0 0))
@@ -1618,7 +1618,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF32D9)
-    (at 167.615001 145.195001)
+    (at 173.89 118.8)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60C1444E/60CA302B)
@@ -1654,7 +1654,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF32EA)
-    (at 170.525001 143.155001)
+    (at 167.6 127.1)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60C1444E/60C8E619)
@@ -1690,7 +1690,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF32FB)
-    (at 165.235001 149.725001)
+    (at 167.5 128.34)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60C1444E/60C8ED48)
@@ -3485,7 +3485,7 @@
   )
 
   (module "footprint libraries:RSR030N06TL" (layer F.Cu) (tedit 0) (tstamp 60CF3678)
-    (at 171.21 127.26 90)
+    (at 170.64 128.11 90)
     (descr SOT-346)
     (tags Transistor)
     (path /60C1444E/60C86B21)
@@ -4067,7 +4067,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF3788)
-    (at 175.1 123.81)
+    (at 176.25 122.62)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /60C1444E/60CA0508)
@@ -4103,7 +4103,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF3799)
-    (at 171.3 123.94)
+    (at 175.28 125.68 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /60C1444E/60C9E5A0)
@@ -4127,9 +4127,9 @@
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
-    (pad 2 smd roundrect (at 0.825 0) (size 0.8 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 "Net-(C405-Pad1)"))
-    (pad 1 smd roundrect (at -0.825 0) (size 0.8 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.825 0 180) (size 0.8 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 "Net-(C406-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -4139,7 +4139,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF37AA)
-    (at 157.235001 149.815001)
+    (at 167.89 119.11 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /60C1444E/60CB730A)
@@ -4163,9 +4163,9 @@
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.26 0.26) (thickness 0.04)))
     )
-    (pad 1 smd roundrect (at -0.51 0) (size 0.54 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.51 0 180) (size 0.54 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 100 "Net-(R402-Pad2)"))
-    (pad 2 smd roundrect (at 0.51 0) (size 0.54 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.51 0 180) (size 0.54 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 27 "Net-(C407-Pad2)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl
       (at (xyz 0 0 0))
@@ -4175,7 +4175,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 60CF37BB)
-    (at 161.795001 148.025001)
+    (at 175.47 128.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /60C1444E/60C9BFE0)
