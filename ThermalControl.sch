@@ -443,4 +443,26 @@ Text GLabel 8600 4550 2    50   Output ~ 0
 Thermal_Control_to_Power_OpAmps
 Text GLabel 2200 4200 0    50   Output ~ 0
 Butterfly_Thermistor
+$Comp
+L power:GND #PWR?
+U 1 1 60D35F72
+P 6400 4550
+F 0 "#PWR?" H 6400 4300 50  0001 C CNN
+F 1 "GND" H 6405 4377 50  0000 C CNN
+F 2 "" H 6400 4550 50  0001 C CNN
+F 3 "" H 6400 4550 50  0001 C CNN
+	1    6400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D3601E
+P 6450 3150
+F 0 "#PWR?" H 6450 2900 50  0001 C CNN
+F 1 "GND" H 6455 2977 50  0000 C CNN
+F 2 "" H 6450 3150 50  0001 C CNN
+F 3 "" H 6450 3150 50  0001 C CNN
+	1    6450 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
