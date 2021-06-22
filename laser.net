@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/juliaisaac/KicadProjects/IOPTIS-Laser-Controller-Circuit/laser.sch)
-    (date "Tuesday, June 22, 2021 at 12:31:17 PM")
+    (date "Tuesday, June 22, 2021 at 03:58:17 PM")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -503,7 +503,7 @@
       (sheetpath (names /NewBoardCurrentControl/) (tstamps /60C1444E/))
       (tstamp 60CA0508))
     (comp (ref C408)
-      (value 10u)
+      (value 0.01u)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
