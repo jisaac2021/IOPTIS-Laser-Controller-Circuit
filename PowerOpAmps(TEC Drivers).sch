@@ -728,4 +728,14 @@ Wire Wire Line
 Connection ~ 7800 5350
 Wire Wire Line
 	8150 5350 8250 5350
+Wire Wire Line
+	7500 1800 8350 1800
+Wire Wire Line
+	8350 1800 8350 1900
+Connection ~ 8350 1900
+Wire Wire Line
+	7500 4550 8350 4550
+Wire Wire Line
+	8350 4550 8350 4650
+Connection ~ 8350 4650
 $EndSCHEMATC
