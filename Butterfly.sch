@@ -43,7 +43,7 @@ Wire Wire Line
 	5650 3200 5650 2600
 Wire Wire Line
 	5650 2600 5600 2600
-Text GLabel 5750 3200 1    50   Input ~ 0
+Text GLabel 5750 2250 1    50   Input ~ 0
 Monitor+_To_AIN2
 Text GLabel 5750 4500 3    50   Input ~ 0
 LASER_3.3V
@@ -73,5 +73,38 @@ F 2 "" H 5400 4500 50  0001 C CNN
 F 3 "" H 5400 4500 50  0001 C CNN
 	1    5400 4500
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 3200 5750 2350
+Wire Wire Line
+	5750 2350 5100 2350
+Wire Wire Line
+	5100 2350 5100 2450
+Connection ~ 5750 2350
+Wire Wire Line
+	5750 2350 5750 2250
+$Comp
+L Device:R R901
+U 1 1 60D2C1DF
+P 5100 2600
+F 0 "R901" H 5170 2646 50  0000 L CNN
+F 1 "100k" H 5170 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5030 2600 50  0001 C CNN
+F 3 "~" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2750 5100 2800
+$Comp
+L power:GND #PWR0104
+U 1 1 60D2CBDA
+P 5100 2800
+F 0 "#PWR0104" H 5100 2550 50  0001 C CNN
+F 1 "GND" H 5105 2627 50  0000 C CNN
+F 2 "" H 5100 2800 50  0001 C CNN
+F 3 "" H 5100 2800 50  0001 C CNN
+	1    5100 2800
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
