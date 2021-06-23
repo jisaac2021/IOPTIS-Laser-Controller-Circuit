@@ -538,4 +538,15 @@ Text GLabel 10500 1500 2    50   Output ~ 0
 LASER_3.3V
 Text GLabel 10500 1900 2    50   Output ~ 0
 LASER_V-
+$Comp
+L power:GND #PWR?
+U 1 1 60D39A4C
+P 6100 3550
+F 0 "#PWR?" H 6100 3300 50  0001 C CNN
+F 1 "GND" H 6105 3377 50  0000 C CNN
+F 2 "" H 6100 3550 50  0001 C CNN
+F 3 "" H 6100 3550 50  0001 C CNN
+	1    6100 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
