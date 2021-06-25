@@ -370,8 +370,6 @@ $EndComp
 Wire Wire Line
 	8200 4600 8050 4600
 Wire Wire Line
-	12950 5500 13150 5500
-Wire Wire Line
 	13350 4200 13350 6150
 Wire Wire Line
 	7900 4500 8200 4500
@@ -529,9 +527,6 @@ Wire Wire Line
 Text GLabel 6900 5650 0    50   Output ~ 0
 DtoA_Output_to_Current
 Wire Wire Line
-	13150 4900 13150 5500
-Connection ~ 13150 4900
-Wire Wire Line
 	7450 3800 3500 3800
 Wire Wire Line
 	3500 3800 3500 4350
@@ -682,9 +677,9 @@ Wire Wire Line
 Wire Wire Line
 	2850 5500 2350 5500
 Text GLabel 2350 5350 0    50   Input ~ 0
-SCL
+SCL_CPU_to_AtoD
 Text GLabel 2350 5500 0    50   Input ~ 0
-SDA
+SDA_CPU_to_AtoD
 Text Label 11100 3650 0    50   ~ 0
 3.3V
 Text Label 11100 3800 0    50   ~ 0
@@ -707,4 +702,10 @@ Text GLabel 11800 5250 2    50   Input ~ 0
 Monitor+_To_AIN2
 Wire Wire Line
 	11450 4600 11450 4900
+Wire Wire Line
+	13250 5500 13250 4700
+Wire Wire Line
+	13250 4700 13150 4700
+Wire Wire Line
+	12950 5500 13250 5500
 $EndSCHEMATC

@@ -100,53 +100,8 @@ F 3 "" H 11650 5750 50  0001 C CNN
 	1    11650 5750
 	0    1    1    0   
 $EndComp
-$Comp
-L New_Library_for_first_symbol:USB_Connector J602
-U 1 1 60CB0840
-P 14200 6450
-F 0 "J602" H 14200 6915 50  0000 C CNN
-F 1 "USB_Connector" H 14200 6824 50  0000 C CNN
-F 2 "footprint libraries:UX60MB5ST" H 14200 6450 50  0001 C CNN
-F 3 "" H 14200 6450 50  0001 C CNN
-	1    14200 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14550 6350 14650 6350
-Wire Wire Line
-	14650 6350 14650 6450
-Wire Wire Line
-	14550 6650 14650 6650
-Connection ~ 14650 6650
-Wire Wire Line
-	14650 6650 14650 6750
-Wire Wire Line
-	14550 6550 14650 6550
-Connection ~ 14650 6550
-Wire Wire Line
-	14650 6550 14650 6650
-Wire Wire Line
-	14550 6450 14650 6450
-Connection ~ 14650 6450
-Wire Wire Line
-	14650 6450 14650 6550
-$Comp
-L power:GND #PWR0610
-U 1 1 60CB8CFF
-P 14650 6750
-F 0 "#PWR0610" H 14650 6500 50  0001 C CNN
-F 1 "GND" H 14655 6577 50  0000 C CNN
-F 2 "" H 14650 6750 50  0001 C CNN
-F 3 "" H 14650 6750 50  0001 C CNN
-	1    14650 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12950 6350 13850 6350
 Wire Wire Line
 	12950 6450 13850 6450
-Wire Wire Line
-	13850 6650 13850 6800
 $Comp
 L power:GND #PWR0609
 U 1 1 60CC4617
@@ -169,17 +124,6 @@ Wire Wire Line
 Connection ~ 13100 6600
 Wire Wire Line
 	13100 6600 13100 7050
-$Comp
-L power:GND #PWR0108
-U 1 1 60D44256
-P 13850 6800
-F 0 "#PWR0108" H 13850 6550 50  0001 C CNN
-F 1 "GND" H 13855 6627 50  0000 C CNN
-F 2 "" H 13850 6800 50  0001 C CNN
-F 3 "" H 13850 6800 50  0001 C CNN
-	1    13850 6800
-	1    0    0    -1  
-$EndComp
 $Comp
 L ATMEGA328PB-AN:ATMEGA328PB-AN IC601
 U 1 1 60D2BFAE
@@ -474,23 +418,6 @@ F 3 "" H 2250 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 2850 5300 3250
-Wire Wire Line
-	5300 2850 5200 2850
-Wire Wire Line
-	5200 2850 5200 2450
-$Comp
-L Device:R RP1D601
-U 1 1 60CE678B
-P 5200 2300
-F 0 "RP1D601" H 5270 2346 50  0000 L CNN
-F 1 "1k" H 5270 2255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5130 2300 50  0001 C CNN
-F 3 "~" H 5200 2300 50  0001 C CNN
-	1    5200 2300
-	1    0    0    -1  
-$EndComp
-Text Label 5200 2600 0    50   ~ 0
-RESET
 $Comp
 L ECS-160-16-33B-CKM-TR:ECS-160-16-33B-CKM-TR Y601
 U 1 1 60CE517B
@@ -524,8 +451,6 @@ Wire Wire Line
 	2550 5650 2350 5650
 Wire Wire Line
 	2350 5650 2350 5450
-Wire Wire Line
-	2350 4350 2550 4350
 Wire Wire Line
 	2250 4200 2250 5750
 Wire Wire Line
@@ -575,9 +500,9 @@ To_Arduino_AtoD_Neg
 Text GLabel 6650 3050 2    50   Input ~ 0
 To_Arduino_AtoD_Pos
 Text GLabel 8000 2800 2    50   Output ~ 0
-SDA
+SDA_CPU_to_AtoD
 Text GLabel 8000 2650 2    50   Output ~ 0
-SCL
+SCL_CPU_to_AtoD
 Wire Wire Line
 	5400 2650 8000 2650
 Wire Wire Line
@@ -601,7 +526,6 @@ Wire Wire Line
 	3700 5250 3700 5850
 Wire Wire Line
 	5600 2950 6650 2950
-Connection ~ 2550 4350
 Wire Wire Line
 	3550 8350 7450 8350
 Wire Wire Line
@@ -614,4 +538,56 @@ Wire Wire Line
 	7550 5550 7550 8450
 Wire Wire Line
 	3700 5850 3700 8450
+Text Label 5200 2600 0    50   ~ 0
+RESET
+$Comp
+L Device:R RP1D601
+U 1 1 60CE678B
+P 5200 2300
+F 0 "RP1D601" H 5270 2346 50  0000 L CNN
+F 1 "1k" H 5270 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5130 2300 50  0001 C CNN
+F 3 "~" H 5200 2300 50  0001 C CNN
+	1    5200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2850 5200 2450
+Wire Wire Line
+	5300 2850 5200 2850
+Wire Wire Line
+	2550 4350 2650 4350
+Wire Wire Line
+	2350 4350 2550 4350
+Connection ~ 2550 4350
+Wire Wire Line
+	13850 6550 13450 6550
+Wire Wire Line
+	13450 6550 13450 6350
+Wire Wire Line
+	13450 6350 12950 6350
+$Comp
+L New_Library_for_first_symbol:USB_Connector J602
+U 1 1 60CB0840
+P 14200 6450
+F 0 "J602" H 14200 6915 50  0000 C CNN
+F 1 "USB_Connector" H 14200 6824 50  0000 C CNN
+F 2 "footprint libraries:UX60MB5ST" H 14200 6450 50  0001 C CNN
+F 3 "" H 14200 6450 50  0001 C CNN
+	1    14200 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E91EBF
+P 13700 6250
+F 0 "#PWR?" H 13700 6000 50  0001 C CNN
+F 1 "GND" H 13705 6077 50  0000 C CNN
+F 2 "" H 13700 6250 50  0001 C CNN
+F 3 "" H 13700 6250 50  0001 C CNN
+	1    13700 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13700 6250 13850 6250
 $EndSCHEMATC

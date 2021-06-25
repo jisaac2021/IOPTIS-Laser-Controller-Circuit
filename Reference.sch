@@ -103,17 +103,6 @@ Wire Wire Line
 	5750 4200 5750 4300
 Connection ~ 5750 4300
 $Comp
-L power:GND #PWR0701
-U 1 1 60C94E50
-P 4850 4400
-F 0 "#PWR0701" H 4850 4150 50  0001 C CNN
-F 1 "GND" H 4855 4227 50  0000 C CNN
-F 2 "" H 4850 4400 50  0001 C CNN
-F 3 "" H 4850 4400 50  0001 C CNN
-	1    4850 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0703
 U 1 1 60C9528F
 P 5750 4600
@@ -124,25 +113,9 @@ F 3 "" H 5750 4600 50  0001 C CNN
 	1    5750 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C701
-U 1 1 60C96AC6
-P 4850 4250
-F 0 "C701" H 4735 4296 50  0000 R CNN
-F 1 "0.1u" H 4735 4205 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4888 4100 50  0001 C CNN
-F 3 "~" H 4850 4250 50  0001 C CNN
-	1    4850 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 4100 4650 4100
-Connection ~ 4850 4100
 Wire Wire Line
 	5400 4100 5400 4200
 Connection ~ 5400 4100
-Wire Wire Line
-	5400 4100 4850 4100
 $Comp
 L Device:C C702
 U 1 1 60D5F3BC
@@ -188,4 +161,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 4200 5750 4200
 Connection ~ 5750 4200
+Wire Wire Line
+	4650 4100 5400 4100
 $EndSCHEMATC
