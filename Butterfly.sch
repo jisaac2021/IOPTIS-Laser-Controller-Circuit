@@ -15,17 +15,6 @@ Comment4 ""
 $EndDescr
 Text GLabel 5550 3200 1    50   Input ~ 0
 TEC_Plus
-$Comp
-L New_Library_for_first_symbol:butterfly B1
-U 1 1 60DEB546
-P 5750 3850
-F 0 "B1" H 6378 3896 50  0000 L CNN
-F 1 "butterfly" H 6378 3805 50  0000 L CNN
-F 2 "footprint libraries:Butterfly" H 5750 3850 50  0001 C CNN
-F 3 "" H 5750 3850 50  0001 C CNN
-	1    5750 3850
-	1    0    0    -1  
-$EndComp
 Text GLabel 5450 3200 1    50   Input ~ 0
 TEC_Minus
 $Comp
@@ -59,22 +48,6 @@ Wire Wire Line
 	5600 2400 5600 2600
 Connection ~ 5600 2600
 Wire Wire Line
-	5550 4500 5450 4500
-Connection ~ 5450 4500
-Wire Wire Line
-	5450 4500 5400 4500
-$Comp
-L power:GND #PWR0103
-U 1 1 60E00331
-P 5400 4500
-F 0 "#PWR0103" H 5400 4250 50  0001 C CNN
-F 1 "GND" V 5405 4372 50  0000 R CNN
-F 2 "" H 5400 4500 50  0001 C CNN
-F 3 "" H 5400 4500 50  0001 C CNN
-	1    5400 4500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	5750 3200 5750 2350
 Wire Wire Line
 	5750 2350 5100 2350
@@ -107,4 +80,31 @@ F 3 "" H 5100 2800 50  0001 C CNN
 	1    5100 2800
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60E00331
+P 6050 4700
+F 0 "#PWR0103" H 6050 4450 50  0001 C CNN
+F 1 "GND" V 6055 4572 50  0000 R CNN
+F 2 "" H 6050 4700 50  0001 C CNN
+F 3 "" H 6050 4700 50  0001 C CNN
+	1    6050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L New_Library_for_first_symbol:butterfly B1
+U 1 1 60DEB546
+P 5750 3850
+F 0 "B1" H 6378 3896 50  0000 L CNN
+F 1 "butterfly" H 6378 3805 50  0000 L CNN
+F 2 "footprint libraries:Butterfly" H 5750 3850 50  0001 C CNN
+F 3 "" H 5750 3850 50  0001 C CNN
+	1    5750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4700 6050 4500
+Wire Wire Line
+	5950 4500 6050 4500
+Connection ~ 6050 4500
 $EndSCHEMATC

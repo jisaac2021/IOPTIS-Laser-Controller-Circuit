@@ -194,10 +194,6 @@ D11-MOSI
 Wire Wire Line
 	9800 7650 9250 7650
 Wire Wire Line
-	10700 7150 10700 7450
-Text GLabel 10700 7150 0    50   Input ~ 0
-5.0V
-Wire Wire Line
 	5100 3150 4300 3150
 $Comp
 L Device:R RP1B601
@@ -593,4 +589,8 @@ Text GLabel 11000 4750 0    50   Input ~ 0
 5.0V
 Wire Wire Line
 	2350 4350 2650 4350
+Text GLabel 10700 7150 0    50   Input ~ 0
+5.0V
+Wire Wire Line
+	10700 7150 10700 7450
 $EndSCHEMATC
