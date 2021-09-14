@@ -254,39 +254,6 @@ Wire Wire Line
 	1900 5700 1900 5500
 Wire Wire Line
 	1900 5500 2200 5500
-$Comp
-L Device:C C204
-U 1 1 60C3DCA3
-P 7100 4700
-F 0 "C204" H 6985 4654 50  0000 R CNN
-F 1 "100u" H 6985 4745 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 7138 4550 50  0001 C CNN
-F 3 "~" H 7100 4700 50  0001 C CNN
-	1    7100 4700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0209
-U 1 1 60C42E03
-P 7100 4850
-F 0 "#PWR0209" H 7100 4600 50  0001 C CNN
-F 1 "GND" H 7105 4677 50  0000 C CNN
-F 2 "" H 7100 4850 50  0001 C CNN
-F 3 "" H 7100 4850 50  0001 C CNN
-	1    7100 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0212
-U 1 1 60C43694
-P 8950 4850
-F 0 "#PWR0212" H 8950 4600 50  0001 C CNN
-F 1 "GND" H 8955 4677 50  0000 C CNN
-F 2 "" H 8950 4850 50  0001 C CNN
-F 3 "" H 8950 4850 50  0001 C CNN
-	1    8950 4850
-	1    0    0    -1  
-$EndComp
 Connection ~ 1900 5500
 Wire Wire Line
 	1900 4550 1900 5400
@@ -301,270 +268,12 @@ F 3 "" H 7650 5700 50  0001 C CNN
 	1    7650 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L LM4040:LM4040EIM3X-2.5_NOPB U201
-U 1 1 60C1A8C3
-P 5500 1400
-F 0 "U201" V 6847 1628 60  0000 L CNN
-F 1 "LM4040EIM3X-2.5_NOPB" V 6953 1628 60  0000 L CNN
-F 2 "footprint libraries:LM4040EIM3X-2.5&slash_NOPB" H 6900 1640 60  0001 C CNN
-F 3 "" H 5500 1400 60  0000 C CNN
-	1    5500 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0204
-U 1 1 60C2C342
-P 5400 4200
-F 0 "#PWR0204" H 5400 3950 50  0001 C CNN
-F 1 "GND" H 5405 4027 50  0000 C CNN
-F 2 "" H 5400 4200 50  0001 C CNN
-F 3 "" H 5400 4200 50  0001 C CNN
-	1    5400 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R201
-U 1 1 60C8514F
-P 5500 1150
-F 0 "R201" H 5570 1196 50  0000 L CNN
-F 1 "10k" H 5570 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 1150 50  0001 C CNN
-F 3 "~" H 5500 1150 50  0001 C CNN
-	1    5500 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 1000 6100 1000
-$Comp
-L Device:R R202
-U 1 1 60C8D17C
-P 6100 1150
-F 0 "R202" H 6170 1196 50  0000 L CNN
-F 1 "14k" H 6170 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 1150 50  0001 C CNN
-F 3 "~" H 6100 1150 50  0001 C CNN
-	1    6100 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0208
-U 1 1 60C7B138
-P 6400 1900
-F 0 "#PWR0208" H 6400 1650 50  0001 C CNN
-F 1 "GND" V 6405 1772 50  0000 R CNN
-F 2 "" H 6400 1900 50  0001 C CNN
-F 3 "" H 6400 1900 50  0001 C CNN
-	1    6400 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L LT1716CS5#TRPBF:LT1716CS5#TRPBF IC202
-U 1 1 60C4116D
-P 6450 1800
-F 0 "IC202" H 7000 2065 50  0000 C CNN
-F 1 "LT1716CS5#TRPBF" H 7000 1974 50  0000 C CNN
-F 2 "footprint libraries:LT1716CS5#TRPBF" H 7400 1900 50  0001 L CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT1716.pdf" H 7400 1800 50  0001 L CNN
-F 4 "Analog Comparators SOT-23, 44V, Over-The-Top, uP, Prec R2R" H 7400 1700 50  0001 L CNN "Description"
-F 5 "1" H 7400 1600 50  0001 L CNN "Height"
-F 6 "Analog Devices" H 7400 1500 50  0001 L CNN "Manufacturer_Name"
-F 7 "LT1716CS5#TRPBF" H 7400 1400 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "584-LT1716CS5#TRPBF" H 7400 1300 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1716CS5TRPBF?qs=ytflclh7QUXuAtnEwJBbpw%3D%3D" H 7400 1200 50  0001 L CNN "Mouser Price/Stock"
-F 10 "LT1716CS5#TRPBF" H 7400 1100 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/lt1716cs5trpbf/analog-devices" H 7400 1000 50  0001 L CNN "Arrow Price/Stock"
-	1    6450 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 1300 6100 2000
-Wire Wire Line
-	6100 2000 6450 2000
-$Comp
-L Device:R R203
-U 1 1 60C99B19
-P 6100 2150
-F 0 "R203" H 6170 2196 50  0000 L CNN
-F 1 "12k" H 6170 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6030 2150 50  0001 C CNN
-F 3 "~" H 6100 2150 50  0001 C CNN
-	1    6100 2150
-	1    0    0    -1  
-$EndComp
-Connection ~ 6100 2000
-$Comp
-L power:GND #PWR0206
-U 1 1 60C9A55D
-P 6100 2300
-F 0 "#PWR0206" H 6100 2050 50  0001 C CNN
-F 1 "GND" H 6105 2127 50  0000 C CNN
-F 2 "" H 6100 2300 50  0001 C CNN
-F 3 "" H 6100 2300 50  0001 C CNN
-	1    6100 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 1300 5500 1400
-Wire Wire Line
-	7550 1800 7550 1400
-Wire Wire Line
-	7550 1400 5500 1400
-Connection ~ 5500 1400
-Wire Wire Line
-	5500 1400 5500 1500
-Wire Wire Line
-	7750 1900 7750 1650
-Wire Wire Line
-	7750 1000 6400 1000
-Wire Wire Line
-	7750 1000 8150 1000
-Wire Wire Line
-	8150 1000 8150 1350
-Wire Wire Line
-	8150 1900 7750 1900
-Connection ~ 7750 1000
-Connection ~ 7750 1900
-$Comp
-L Device:C C206
-U 1 1 60CA03AF
-P 7750 1500
-F 0 "C206" H 7865 1546 50  0000 L CNN
-F 1 "1u" H 7865 1455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7788 1350 50  0001 C CNN
-F 3 "~" H 7750 1500 50  0001 C CNN
-	1    7750 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7750 1350 7750 1000
-$Comp
-L Device:C C210
-U 1 1 60CA132A
-P 8150 1500
-F 0 "C210" H 8265 1546 50  0000 L CNN
-F 1 "0.1u" H 8265 1455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8188 1350 50  0001 C CNN
-F 3 "~" H 8150 1500 50  0001 C CNN
-	1    8150 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 1650 8150 1900
-Wire Wire Line
-	6450 1900 6400 1900
-Wire Wire Line
-	6400 1900 6400 1000
-Connection ~ 6400 1900
-$Comp
-L Device:C C205
-U 1 1 60CA63E5
-P 7600 2650
-F 0 "C205" H 7715 2696 50  0000 L CNN
-F 1 "2.2u" H 7715 2605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7638 2500 50  0001 C CNN
-F 3 "~" H 7600 2650 50  0001 C CNN
-	1    7600 2650
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 1900 7550 2500
-$Comp
-L IRF9358PBF:IRF9358PBF IC204
-U 1 1 60C1CFE4
-P 7950 2500
-F 0 "IC204" H 8450 2765 50  0000 C CNN
-F 1 "IRF9358PBF" H 8450 2674 50  0000 C CNN
-F 2 "footprint libraries:IRF9358PBF" H 8800 2600 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 8800 2500 50  0001 L CNN
-F 4 "International Rectifier IRF9358PBF Dual P-channel MOSFET Transistor, 9.2 A, -30 V, 8-Pin SOIC" H 8800 2400 50  0001 L CNN "Description"
-F 5 "1.75" H 8800 2300 50  0001 L CNN "Height"
-F 6 "Infineon" H 8800 2200 50  0001 L CNN "Manufacturer_Name"
-F 7 "IRF9358PBF" H 8800 2100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "942-IRF9358PBF" H 8800 2000 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=942-IRF9358PBF" H 8800 1900 50  0001 L CNN "Mouser Price/Stock"
-F 10 "IRF9358PBF" H 8800 1800 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/irf9358pbf/infineon-technologies-ag" H 8800 1700 50  0001 L CNN "Arrow Price/Stock"
-	1    7950 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 2700 7800 2700
-$Comp
-L power:GND #PWR0213
-U 1 1 60CBDBBD
-P 7950 2600
-F 0 "#PWR0213" H 7950 2350 50  0001 C CNN
-F 1 "GND" V 7955 2472 50  0000 R CNN
-F 2 "" H 7950 2600 50  0001 C CNN
-F 3 "" H 7950 2600 50  0001 C CNN
-	1    7950 2600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7550 1900 7750 1900
-Wire Wire Line
-	7550 2500 7600 2500
-Wire Wire Line
-	7800 2700 7800 2500
-Connection ~ 7800 2500
-Wire Wire Line
-	7800 2500 7950 2500
-$Comp
-L Device:R R204
-U 1 1 60CC5789
-P 6450 2450
-F 0 "R204" H 6520 2496 50  0000 L CNN
-F 1 "47k" H 6520 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6380 2450 50  0001 C CNN
-F 3 "~" H 6450 2450 50  0001 C CNN
-	1    6450 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 2600 6450 2800
-Wire Wire Line
-	8950 2700 8950 2800
-Connection ~ 8950 2800
-Wire Wire Line
-	7900 4550 7950 4550
-Wire Wire Line
-	8950 2600 8950 2500
-Wire Wire Line
-	8950 2500 9150 2500
-Connection ~ 8950 2500
-Wire Wire Line
-	8950 2800 8950 3850
-Connection ~ 8950 3850
-Wire Wire Line
-	8950 3850 8950 4550
 Wire Wire Line
 	8150 5500 8900 5500
 Connection ~ 8150 5500
 Connection ~ 4650 5400
 Wire Wire Line
 	4650 5400 3800 5400
-Connection ~ 7600 2500
-Wire Wire Line
-	7600 2500 7800 2500
-Connection ~ 7600 2800
-Wire Wire Line
-	7600 2800 7950 2800
-Wire Wire Line
-	6450 2800 7600 2800
-Wire Wire Line
-	6450 1800 6450 2300
-$Comp
-L Device:C C208
-U 1 1 60C41D63
-P 8950 4700
-F 0 "C208" H 8835 4654 50  0000 R CNN
-F 1 "100u" H 8835 4745 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 8988 4550 50  0001 C CNN
-F 3 "~" H 8950 4700 50  0001 C CNN
-	1    8950 4700
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR0201
 U 1 1 60C8805A
@@ -579,50 +288,15 @@ $EndComp
 Wire Wire Line
 	2200 5600 2200 5800
 Wire Wire Line
-	6100 1000 6100 700 
-Wire Wire Line
-	6100 700  8500 700 
-Wire Wire Line
-	8500 700  8500 2100
-Wire Wire Line
-	8500 2100 7800 2100
-Wire Wire Line
-	7800 2100 7800 2500
-Connection ~ 6100 1000
-Wire Wire Line
 	4650 7000 4750 7000
 Wire Wire Line
 	4650 5400 4650 7000
-$Comp
-L 7447714101:7447714101 L201
-U 1 1 60D14724
-P 7100 4550
-F 0 "L201" H 7500 4775 50  0000 C CNN
-F 1 "100u" H 7500 4684 50  0000 C CNN
-F 2 "footprint libraries:7447714220" H 7750 4600 50  0001 L CNN
-F 3 "" H 7750 4500 50  0001 L CNN
-F 4 "Wurth WE-PD Series Shielded Wire-wound SMD Inductor 100 uH +/-20% 1.5A Idc" H 7750 4400 50  0001 L CNN "Description"
-F 5 "5" H 7750 4300 50  0001 L CNN "Height"
-F 6 "Wurth Elektronik" H 7750 4200 50  0001 L CNN "Manufacturer_Name"
-F 7 "7447714101" H 7750 4100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "710-7447714101" H 7750 4000 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7447714101?qs=XJfXErqHgA5R%252B3wMfRjrqw%3D%3D" H 7750 3900 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 7750 3800 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 7750 3700 50  0001 L CNN "Arrow Price/Stock"
-	1    7100 4550
-	1    0    0    -1  
-$EndComp
-Connection ~ 7100 4550
 Text GLabel 8900 5500 2    50   Output ~ 0
 3.3V
-Text GLabel 9350 3850 2    50   Output ~ 0
+Text GLabel 9350 4550 2    50   Output ~ 0
 5.0V
-Wire Wire Line
-	8950 3850 9350 3850
 Text GLabel 4750 7000 2    50   Output ~ 0
 4.2V
-Text GLabel 9150 2500 2    50   Input ~ 0
-5V_EXTERNAL_Power_Source
 Wire Wire Line
 	2200 5400 1900 5400
 Connection ~ 1900 5400
@@ -651,52 +325,377 @@ F 3 "" H 6950 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 7447714101:7447714101 L202
-U 1 1 610CE2A2
-P 8000 4550
-F 0 "L202" H 8400 4775 50  0000 C CNN
-F 1 "100u" H 8400 4684 50  0000 C CNN
-F 2 "footprint libraries:7447714220" H 8650 4600 50  0001 L CNN
-F 3 "" H 8650 4500 50  0001 L CNN
-F 4 "Wurth WE-PD Series Shielded Wire-wound SMD Inductor 100 uH +/-20% 1.5A Idc" H 8650 4400 50  0001 L CNN "Description"
-F 5 "5" H 8650 4300 50  0001 L CNN "Height"
-F 6 "Wurth Elektronik" H 8650 4200 50  0001 L CNN "Manufacturer_Name"
-F 7 "7447714101" H 8650 4100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "710-7447714101" H 8650 4000 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7447714101?qs=XJfXErqHgA5R%252B3wMfRjrqw%3D%3D" H 8650 3900 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 8650 3800 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 8650 3700 50  0001 L CNN "Arrow Price/Stock"
-	1    8000 4550
+L LM4040:LM4040EIM3X-2.5_NOPB U201
+U 1 1 60C1A8C3
+P 4400 1400
+F 0 "U201" V 5747 1628 60  0000 L CNN
+F 1 "LM4040EIM3X-2.5_NOPB" V 5853 1628 60  0000 L CNN
+F 2 "footprint libraries:LM4040EIM3X-2.5&slash_NOPB" H 5800 1640 60  0001 C CNN
+F 3 "" H 4400 1400 60  0000 C CNN
+	1    4400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0204
+U 1 1 60C2C342
+P 4300 4200
+F 0 "#PWR0204" H 4300 3950 50  0001 C CNN
+F 1 "GND" H 4305 4027 50  0000 C CNN
+F 2 "" H 4300 4200 50  0001 C CNN
+F 3 "" H 4300 4200 50  0001 C CNN
+	1    4300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R201
+U 1 1 60C8514F
+P 4400 1150
+F 0 "R201" H 4470 1196 50  0000 L CNN
+F 1 "10k" H 4470 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4330 1150 50  0001 C CNN
+F 3 "~" H 4400 1150 50  0001 C CNN
+	1    4400 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1000 5000 1000
+$Comp
+L Device:R R202
+U 1 1 60C8D17C
+P 5000 1150
+F 0 "R202" H 5070 1196 50  0000 L CNN
+F 1 "14k" H 5070 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4930 1150 50  0001 C CNN
+F 3 "~" H 5000 1150 50  0001 C CNN
+	1    5000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0208
+U 1 1 60C7B138
+P 5300 1900
+F 0 "#PWR0208" H 5300 1650 50  0001 C CNN
+F 1 "GND" V 5305 1772 50  0000 R CNN
+F 2 "" H 5300 1900 50  0001 C CNN
+F 3 "" H 5300 1900 50  0001 C CNN
+	1    5300 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L LT1716CS5#TRPBF:LT1716CS5#TRPBF IC202
+U 1 1 60C4116D
+P 5350 1800
+F 0 "IC202" H 5900 2065 50  0000 C CNN
+F 1 "LT1716CS5#TRPBF" H 5900 1974 50  0000 C CNN
+F 2 "footprint libraries:LT1716CS5#TRPBF" H 6300 1900 50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT1716.pdf" H 6300 1800 50  0001 L CNN
+F 4 "Analog Comparators SOT-23, 44V, Over-The-Top, uP, Prec R2R" H 6300 1700 50  0001 L CNN "Description"
+F 5 "1" H 6300 1600 50  0001 L CNN "Height"
+F 6 "Analog Devices" H 6300 1500 50  0001 L CNN "Manufacturer_Name"
+F 7 "LT1716CS5#TRPBF" H 6300 1400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "584-LT1716CS5#TRPBF" H 6300 1300 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1716CS5TRPBF?qs=ytflclh7QUXuAtnEwJBbpw%3D%3D" H 6300 1200 50  0001 L CNN "Mouser Price/Stock"
+F 10 "LT1716CS5#TRPBF" H 6300 1100 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/lt1716cs5trpbf/analog-devices" H 6300 1000 50  0001 L CNN "Arrow Price/Stock"
+	1    5350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1300 5000 2000
+Wire Wire Line
+	5000 2000 5350 2000
+$Comp
+L Device:R R203
+U 1 1 60C99B19
+P 5000 2150
+F 0 "R203" H 5070 2196 50  0000 L CNN
+F 1 "12k" H 5070 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4930 2150 50  0001 C CNN
+F 3 "~" H 5000 2150 50  0001 C CNN
+	1    5000 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 2000
+$Comp
+L power:GND #PWR0206
+U 1 1 60C9A55D
+P 5000 2300
+F 0 "#PWR0206" H 5000 2050 50  0001 C CNN
+F 1 "GND" H 5005 2127 50  0000 C CNN
+F 2 "" H 5000 2300 50  0001 C CNN
+F 3 "" H 5000 2300 50  0001 C CNN
+	1    5000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1300 4400 1400
+Wire Wire Line
+	6450 1800 6450 1400
+Wire Wire Line
+	6450 1400 4400 1400
+Connection ~ 4400 1400
+Wire Wire Line
+	6650 1900 6650 1650
+Wire Wire Line
+	6650 1000 5300 1000
+Wire Wire Line
+	6650 1000 7050 1000
+Wire Wire Line
+	7050 1000 7050 1350
+Wire Wire Line
+	7050 1900 6650 1900
+Connection ~ 6650 1000
+Connection ~ 6650 1900
+$Comp
+L Device:C C206
+U 1 1 60CA03AF
+P 6650 1500
+F 0 "C206" H 6765 1546 50  0000 L CNN
+F 1 "1u" H 6765 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6688 1350 50  0001 C CNN
+F 3 "~" H 6650 1500 50  0001 C CNN
+	1    6650 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1350 6650 1000
+$Comp
+L Device:C C210
+U 1 1 60CA132A
+P 7050 1500
+F 0 "C210" H 7165 1546 50  0000 L CNN
+F 1 "0.1u" H 7165 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7088 1350 50  0001 C CNN
+F 3 "~" H 7050 1500 50  0001 C CNN
+	1    7050 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1650 7050 1900
+Wire Wire Line
+	5350 1900 5300 1900
+Wire Wire Line
+	5300 1900 5300 1000
+Connection ~ 5300 1900
+$Comp
+L Device:C C205
+U 1 1 60CA63E5
+P 6500 2650
+F 0 "C205" H 6615 2696 50  0000 L CNN
+F 1 "2.2u" H 6615 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6538 2500 50  0001 C CNN
+F 3 "~" H 6500 2650 50  0001 C CNN
+	1    6500 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1900 6450 2500
+$Comp
+L IRF9358PBF:IRF9358PBF IC204
+U 1 1 60C1CFE4
+P 6850 2500
+F 0 "IC204" H 7350 2765 50  0000 C CNN
+F 1 "IRF9358PBF" H 7350 2674 50  0000 C CNN
+F 2 "footprint libraries:IRF9358PBF" H 7700 2600 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irf9358pbf.pdf?fileId=5546d462533600a4015356114ffa1da5" H 7700 2500 50  0001 L CNN
+F 4 "International Rectifier IRF9358PBF Dual P-channel MOSFET Transistor, 9.2 A, -30 V, 8-Pin SOIC" H 7700 2400 50  0001 L CNN "Description"
+F 5 "1.75" H 7700 2300 50  0001 L CNN "Height"
+F 6 "Infineon" H 7700 2200 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRF9358PBF" H 7700 2100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRF9358PBF" H 7700 2000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=942-IRF9358PBF" H 7700 1900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRF9358PBF" H 7700 1800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irf9358pbf/infineon-technologies-ag" H 7700 1700 50  0001 L CNN "Arrow Price/Stock"
+	1    6850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2700 6700 2700
+$Comp
+L power:GND #PWR0213
+U 1 1 60CBDBBD
+P 6850 2600
+F 0 "#PWR0213" H 6850 2350 50  0001 C CNN
+F 1 "GND" V 6855 2472 50  0000 R CNN
+F 2 "" H 6850 2600 50  0001 C CNN
+F 3 "" H 6850 2600 50  0001 C CNN
+	1    6850 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 1900 6650 1900
+Wire Wire Line
+	6450 2500 6500 2500
+Wire Wire Line
+	6700 2700 6700 2500
+Connection ~ 6700 2500
+Wire Wire Line
+	6700 2500 6850 2500
+$Comp
+L Device:R R204
+U 1 1 60CC5789
+P 5350 2450
+F 0 "R204" H 5420 2496 50  0000 L CNN
+F 1 "47k" H 5420 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 2450 50  0001 C CNN
+F 3 "~" H 5350 2450 50  0001 C CNN
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2600 5350 2800
+Wire Wire Line
+	7850 2700 7850 2800
+Connection ~ 7850 2800
+Wire Wire Line
+	7850 2600 7850 2500
+Wire Wire Line
+	7850 2500 8050 2500
+Connection ~ 7850 2500
+Connection ~ 6500 2500
+Wire Wire Line
+	6500 2500 6700 2500
+Connection ~ 6500 2800
+Wire Wire Line
+	6500 2800 6850 2800
+Wire Wire Line
+	5350 2800 6500 2800
+Wire Wire Line
+	5000 1000 5000 700 
+Wire Wire Line
+	5000 700  7400 700 
+Wire Wire Line
+	7400 700  7400 2100
+Wire Wire Line
+	7400 2100 6700 2100
+Wire Wire Line
+	6700 2100 6700 2500
+Connection ~ 5000 1000
+Wire Wire Line
+	7850 2800 7850 4550
+Connection ~ 6450 1900
+Wire Wire Line
+	1900 4550 7850 4550
+Connection ~ 7850 4550
+Wire Wire Line
+	7850 4550 9350 4550
+Wire Wire Line
+	8900 2500 8950 2500
+Connection ~ 8900 2500
+Wire Wire Line
+	9750 2500 9900 2500
+$Comp
+L power:GND #PWR0217
+U 1 1 610D05F4
+P 8900 2800
+F 0 "#PWR0217" H 8900 2550 50  0001 C CNN
+F 1 "GND" H 8905 2627 50  0000 C CNN
+F 2 "" H 8900 2800 50  0001 C CNN
+F 3 "" H 8900 2800 50  0001 C CNN
+	1    8900 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C213
 U 1 1 610CFC2B
-P 7950 4700
-F 0 "C213" H 7835 4654 50  0000 R CNN
-F 1 "100u" H 7835 4745 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 7988 4550 50  0001 C CNN
-F 3 "~" H 7950 4700 50  0001 C CNN
-	1    7950 4700
+P 8900 2650
+F 0 "C213" H 8785 2604 50  0000 R CNN
+F 1 "100u" H 8785 2695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8938 2500 50  0001 C CNN
+F 3 "~" H 8900 2650 50  0001 C CNN
+	1    8900 2650
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0217
-U 1 1 610D05F4
-P 7950 4850
-F 0 "#PWR0217" H 7950 4600 50  0001 C CNN
-F 1 "GND" H 7955 4677 50  0000 C CNN
-F 2 "" H 7950 4850 50  0001 C CNN
-F 3 "" H 7950 4850 50  0001 C CNN
-	1    7950 4850
+L 7447714101:7447714101 L202
+U 1 1 610CE2A2
+P 8950 2500
+F 0 "L202" H 9350 2725 50  0000 C CNN
+F 1 "100u" H 9350 2634 50  0000 C CNN
+F 2 "footprint libraries:7447714220" H 9600 2550 50  0001 L CNN
+F 3 "" H 9600 2450 50  0001 L CNN
+F 4 "Wurth WE-PD Series Shielded Wire-wound SMD Inductor 100 uH +/-20% 1.5A Idc" H 9600 2350 50  0001 L CNN "Description"
+F 5 "5" H 9600 2250 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 9600 2150 50  0001 L CNN "Manufacturer_Name"
+F 7 "7447714101" H 9600 2050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-7447714101" H 9600 1950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7447714101?qs=XJfXErqHgA5R%252B3wMfRjrqw%3D%3D" H 9600 1850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9600 1750 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 9600 1650 50  0001 L CNN "Arrow Price/Stock"
+	1    8950 2500
 	1    0    0    -1  
 $EndComp
+$Comp
+L 7447714101:7447714101 L201
+U 1 1 60D14724
+P 8050 2500
+F 0 "L201" H 8450 2725 50  0000 C CNN
+F 1 "100u" H 8450 2634 50  0000 C CNN
+F 2 "footprint libraries:7447714220" H 8700 2550 50  0001 L CNN
+F 3 "" H 8700 2450 50  0001 L CNN
+F 4 "Wurth WE-PD Series Shielded Wire-wound SMD Inductor 100 uH +/-20% 1.5A Idc" H 8700 2350 50  0001 L CNN "Description"
+F 5 "5" H 8700 2250 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 8700 2150 50  0001 L CNN "Manufacturer_Name"
+F 7 "7447714101" H 8700 2050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-7447714101" H 8700 1950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7447714101?qs=XJfXErqHgA5R%252B3wMfRjrqw%3D%3D" H 8700 1850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 8700 1750 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 8700 1650 50  0001 L CNN "Arrow Price/Stock"
+	1    8050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C208
+U 1 1 60C41D63
+P 9900 2650
+F 0 "C208" H 9785 2604 50  0000 R CNN
+F 1 "100u" H 9785 2695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9938 2500 50  0001 C CNN
+F 3 "~" H 9900 2650 50  0001 C CNN
+	1    9900 2650
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	8800 4550 8950 4550
+	8850 2500 8900 2500
+$Comp
+L power:GND #PWR0212
+U 1 1 60C43694
+P 9900 2800
+F 0 "#PWR0212" H 9900 2550 50  0001 C CNN
+F 1 "GND" H 9905 2627 50  0000 C CNN
+F 2 "" H 9900 2800 50  0001 C CNN
+F 3 "" H 9900 2800 50  0001 C CNN
+	1    9900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0209
+U 1 1 60C42E03
+P 8050 2800
+F 0 "#PWR0209" H 8050 2550 50  0001 C CNN
+F 1 "GND" H 8055 2627 50  0000 C CNN
+F 2 "" H 8050 2800 50  0001 C CNN
+F 3 "" H 8050 2800 50  0001 C CNN
+	1    8050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C204
+U 1 1 60C3DCA3
+P 8050 2650
+F 0 "C204" H 7935 2604 50  0000 R CNN
+F 1 "100u" H 7935 2695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8088 2500 50  0001 C CNN
+F 3 "~" H 8050 2650 50  0001 C CNN
+	1    8050 2650
+	-1   0    0    1   
+$EndComp
+Connection ~ 8050 2500
+Text GLabel 9900 1950 2    50   Input ~ 0
+5V_EXTERNAL_Power_Source
 Wire Wire Line
-	1900 4550 7100 4550
-Connection ~ 7950 4550
+	9900 1950 9900 2500
+Connection ~ 9900 2500
 Wire Wire Line
-	7950 4550 8000 4550
-Connection ~ 8950 4550
+	5350 1800 5350 2300
 $EndSCHEMATC
